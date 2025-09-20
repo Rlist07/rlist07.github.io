@@ -1,0 +1,29 @@
+{
+  "name": "rlist07.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./input.css -o ./output.css --minify",
+    "watch": "tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rlist07/rlist07.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rlist07/rlist07.github.io/issues"
+  },
+  "homepage": "https://github.com/Rlist07/rlist07.github.io#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.13"
+  }
+}
