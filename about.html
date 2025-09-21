@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roland Resume</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+<body class="w-3/4 font-serif flex bg-lightbg text-lighttext">
+  
+  <div id="sidebar" class="fixed top-0 left-0 h-screen w-56"></div>
+
+  <main class="ml-56 mr-0 p-8 flex-1">
+    <h2 class="text-2xl mb-4 font-bold text-lightaccent">
+      Purpose
+    </h2>
+    <p class="text-base mb-6">
+        The main purpose of this site is to give more in depth descriptions of projects
+        and work experience relevant to my career. A resume can't contain everything, and a LinkedIn can quickly become
+        bloated with videos, images, links, and long descriptions.
+        <br>
+        Besides that, I'd like a place to share things I've done and things I'm interested in that wouldn't be appropriate
+        for a resume or LinkedIn, somewhat inspired by 
+        <a href="https://www.stallman.org/" class=" inline-flex items-center gap-1 hover:text-lighttextaccent"
+            target="_blank" rel="noopener noreferrer" ><span>Richard Stallman's Personal Site</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>    
+        </a>
+        .
+    </p>
+    <h2 class="text-2xl mb-4 font-bold text-lightaccent">
+      Why does it look like this?
+    </h2>
+    <p class="text-base mb-6">
+        I wanted a barebones website that that is easy to read and navigate.
+        <br>
+        I feel that this design conveys information efficiently with minimal clicks.
+        <br>
+        <br>
+        For a more impressive example of my web design skills, see 
+        <a href="https://withixion.com" class=" inline-flex items-center gap-1 hover:text-lighttextaccent"
+            target="_blank" rel="noopener noreferrer" ><span>ixion</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>    
+        </a>
+        .
+    </p>
+    <h2 class="text-2xl mb-4 font-bold text-lightaccent">
+      Technical details
+    </h2>
+    <p class="text-base mb-6">
+        This website is a static GitHub page written in HTML and styled with TailwindCSS.
+    </p>
+  </main>
+
+  <script>
+    fetch("sidebar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("sidebar").innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>

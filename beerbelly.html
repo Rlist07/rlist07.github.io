@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roland Resume</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+<body class="w-3/4 font-serif flex bg-lightbg text-lighttext">
+  
+  <div id="sidebar" class="fixed top-0 left-0 h-screen w-56"></div>
+
+  <main class="ml-56 mr-0 p-8 flex-1">
+    <h2 class="text-2xl mb-4 font-bold text-lightaccent">
+      Beerbelly
+    </h2>
+    <h1 class="text-base mb-6">
+        Beerbelly is a pet project of mine and my 
+        <a href="https://jakebox.github.io" class=" inline-flex items-center gap-1 hover:text-lighttextaccent"
+            target="_blank" rel="noopener noreferrer" ><span>roommate's</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>    
+        </a>
+        . It's a personal beer rating app that rates beers relative to other beers you've had.
+        <br>
+        It uses an insertion sort algorithm to rank beers by asking you to compare two beers at a time. Then numbers are assigned across the 
+        list of beers to give them a score out of 10.
+        <br>
+        Beerbelly also lets you see what your friends are drinking and their ratings.
+        <br>
+        <br>
+        We used natural language processing to analyze different styles of beers, and cluster similar beers together. With these clusters, we can 
+        recommend beers and predict how much a user might like a beer they haven't had yet.
+        <br>
+        Backend is built with Python and FastAPI. Frontend is built with React.
+        <br>
+        <br>
+        Below is a one sheeter that we gave to the founders of Beli, whose app inspired ours.
+    </h1>
+    <img src="assets/images/beerbelly.jpg" alt="Beerbelly onepager" class="max-w-3xl w-full h-auto rounded-lg shadow-2xl"/>
+  </main>
+
+  <script>
+    fetch("sidebar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("sidebar").innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>

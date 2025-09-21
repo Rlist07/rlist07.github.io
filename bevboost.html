@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roland Resume</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+<body class="font-serif flex bg-lightbg text-lighttext">
+  
+  <div id="sidebar" class="fixed top-0 left-0 h-screen w-56"></div>
+
+  <main class="ml-56 mr-0 p-8 flex-1">
+
+    
+    <h2 class="w-3/4 text-2xl mb-4 font-bold text-lightaccent">
+        <a href="https://BevBoost.com" class=" inline-flex items-center gap-1 hover:text-lighttextaccent"
+            target="_blank" rel="noopener noreferrer" ><span>BevBoost</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>    
+        </a>
+    </h2>
+    <p class="w-3/4 text-base">
+        At BevBoost, I worked in Structured Text (ST) to program PLCs (Programmable Logic Controllers). I automated the filling, capping, and distribution of
+        Bevboost's widgets, which are packed in cans to infuse beverages with flavor.
+    </p>
+    <p class="w-3/4 text-base mb-4">
+        When I started, BevBoost's equipment had a top speed of about 30 cans per minute. By the end of my internship, I helped increase that speed to 120 cans per minute.
+        This was achieved through optimizations in error handling, custom timing, and hardware improvements.
+    </p>
+
+    <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
+        <section>
+            <h2 class="text-lg text-lightaccent font-bold mb-2">Star Wheel</h2>
+            <p class="text-base">
+                The star wheel was the first distribution method I worked on. It's a simple rotating wheel with slots that hold widgets. When
+                a can under the star wheel, the wheel indexes and a widget falls into the can. The wheel got jammed often and the driving motor
+                was limited in how fast it could index.
+                <br>
+                I programmed in redundancy to reduce false errors and the ability to change speed settings, which increased speeds from 30 to 60 cans per minute.
+            </p>
+            <video autoplay loop muted playsinline class ="h-60 rounded shadow mb-4 mt-2">
+                    <source src="assets/images/bevboostwheel.webm" alt="Bevboost star wheel" type="video/webm">
+            </video>
+        </section>
+
+        <section>
+            <h2 class="text-lg text-lightaccent font-bold mb-2">Feed Separator</h2>
+            <p class="text-base">
+                I suggested and implemented a feed separator to replace the star wheel. The feed separator uses a single axis pneumatic piston to
+                extend and retract a specially shaped arm that drops a widget when it's extended, and holds back the next widget when it's retracted.
+                <br>
+                The pneumatic system was less prone to jamming and its near instantaneous movement allowed for a speed bump to 120 cans per minute.
+            </p>
+            <video autoplay loop muted playsinline class ="h-60 rounded shadow mb-4 mt-2">
+                    <source src="assets/images/bevboostdropper.webm" alt="Bevboost feed separator" type="video/webm">
+            </video>
+        </section>
+
+        <section>
+            <h2 class="text-lg text-lightaccent font-bold mb-2">Filler / Capper</h2>
+            <p class="text-base">
+                The filler / capper fills widgets with flavor, closes them, and moves them to whichever distribution method is being used.
+                The original was designed by a contracted third party, proprietary, hidden code and a separate PLC. This caused a lack of integration
+                with the rest of the system and no customizability in timing.
+                <br>
+                I reverse engineered the original filler's code and rewrote it to run on the same PLC as the rest of the system. This allowed for communication
+                between the filler and distributor, which enabled features like pausing the filler when the distributor was full. 
+                <br>
+                I also wrote in features that allowed for timing tweaks, to optimize the machine for different canning lines.
+                <br>
+                The new filler / capper has a speed of 130 widgets per minute, up from the original 48.
+            </p>
+            <video autoplay loop muted playsinline class ="h-60 rounded shadow mb-4 mt-2">
+                <source src="assets/images/bevboost.webm" alt="Bevboost filler" type="video/webm">
+            </video>
+        </section>
+
+        <section>
+            <h2 class="text-lg text-lightaccent font-bold mb-2">User Interface</h2>
+            <p class="text-base">
+                In addition to the actual automation, I designed and implemented user interfaces for the PLCs that made controlling
+                the machines easy and intuitive. I installed a WiFi router in the PLC, which allowed for remote access via a tablet
+                so that operators could control the machines from anywhere in the facility.
+            </p>
+        </section>
+
+    </div>   
+  </main>
+
+  <script>
+    fetch("sidebar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("sidebar").innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>
