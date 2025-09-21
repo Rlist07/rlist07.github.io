@@ -78,13 +78,22 @@
 
         <section>
             <h2 class="text-lg text-lightaccent font-bold mb-2">User Interface</h2>
-            <p class="text-base">
+            <p class="text-base mb-2">
                 In addition to the actual automation, I designed and implemented user interfaces for the PLCs that made controlling
                 the machines easy and intuitive. I installed a WiFi router in the PLC, which allowed for remote access via a tablet
                 so that operators could control the machines from anywhere in the facility.
             </p>
+            <div class="mt-4 flex flex-wrap sm:flex-nowrap gap-4">
+                <div class="basis-full sm:basis-0 sm:flex-1 min-w-0">
+                    <img src="assets/images/feed.png" alt="feed separator controls"
+                        class="block w-full h-auto rounded shadow object-contain">
+                </div>
+                <div class="basis-full sm:basis-0 sm:flex-1 min-w-0">
+                    <img src="assets/images/capper.png" alt="filler/capper controls"
+                        class="block w-full h-auto rounded shadow object-contain">
+                </div>
+            </div>
         </section>
-
     </div>   
   </main>
 
@@ -95,6 +104,50 @@
         document.getElementById("sidebar").innerHTML = data;
       });
   </script>
+
+  <script>
+    function openOverlay(element) {
+    const overlay = document.getElementById("mediaOverlay");
+    const content = document.getElementById("overlayContent");
+
+    // Clear old content
+    content.innerHTML = "";
+
+    if (element.tagName === "IMG") {
+        const img = document.createElement("img");
+        img.src = element.src;
+        img.alt = element.alt;
+        img.className = "w-full h-auto rounded";
+        content.appendChild(img);
+    } else if (element.tagName === "VIDEO") {
+        const video = document.createElement("video");
+        video.src = element.querySelector("source").src;
+        video.controls = true;
+        video.autoplay = true;
+        video.className = "w-full h-auto rounded";
+        content.appendChild(video);
+    }
+
+    overlay.classList.remove("hidden");
+    overlay.classList.add("flex");
+    }
+
+    function closeOverlay() {
+    const overlay = document.getElementById("mediaOverlay");
+    const content = document.getElementById("overlayContent");
+    overlay.classList.add("hidden");
+    overlay.classList.remove("flex");
+    content.innerHTML = "";
+    }
+  </script>
+
+  <div id="mediaOverlay" 
+        class="fixed inset-0 bg-black bg-opacity-80 hidden items-center justify-center z-50">
+    <span class="absolute top-4 right-6 text-white text-3xl cursor-pointer" onclick="closeOverlay()">&times;</span>
+    <div id="overlayContent" class="max-w-5xl max-h-[90vh]">
+        <!-- media gets injected here -->
+    </div>
+  </div>
 
 </body>
 </html>

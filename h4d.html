@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roland 3D Mapping</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+<body class="w-3/4 font-serif flex bg-lightbg text-lighttext">
+  
+  <div id="sidebar" class="fixed top-0 left-0 h-screen w-56"></div>
+
+  <main class="ml-56 mr-0 p-8 flex-1">
+    <h2 class="text-2xl mb-4 font-bold text-lightaccent">
+      3D Image Mapping for US Central Command (CENTCOM)
+    </h2>
+    <h1 class="text-base mb-6">
+        This project was done as part of Hacking for Defense (H4D), a program that connects students with the US Department of Defense to solve real world problems.
+        <br><br>
+        My challenge was assigned by US Central Command (CENTCOM), and was to create a system that could quickly generate 3D maps of hostile or unknown environments.
+        <br><br>
+        My low-budget solution was a program that could generate 3D meshes from a single image, which could be taken from something as simple as a smartphone camera.
+        <br><br>
+        Given a photo, the program does a depth estimation to create a depth map. It uses this map to create a point cloud, which is converted into a 3D mesh.
+        <br><br>
+        The program is written in Python, a jupyter notebook can be downloaded 
+        <a href="assets/files/3d_mapping.ipynb" download class="inline-flex items-center gap-1 hover:text-lighttextaccent"> 
+            <span>here</span>  
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 12.75m0 0 4.5-5.25M12 12.75V3" />
+            </svg>
+        </a>.
+    </h1>
+    <div class="mt-4 flex flex-wrap sm:flex-nowrap gap-4">
+            <div class="basis-full sm:basis-0 sm:flex-1 min-w-0">
+                <img src="assets/images/dog.jpg" alt="Girl with dog depth estimation"
+                    class="max-h-75 w-auto rounded shadow object-contain">
+            </div>
+            <div class="basis-full sm:basis-0 sm:flex-1 min-w-0">
+                <img src="assets/images/depth.jpeg" alt="Girl with dog depth estimation"
+                    class="max-h-75 w-auto rounded shadow object-contain">
+            </div>
+            <div class="basis-full sm:basis-0 sm:flex-1 min-w-0">
+                <video autoplay loop muted playsinline class ="max-h-75 w-auto rounded shadow mb-4 mt-2">
+                    <source src="assets/images/h4d.webm" alt="Bevboost feed separator" type="video/webm">
+            </video>
+            </div>
+    </div>
+  </main>
+
+  <script>
+    fetch("sidebar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("sidebar").innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>
