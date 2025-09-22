@@ -20,51 +20,87 @@
       Projects & experiences
     </h2>
     <p class="mb-4 text-sm text-lighttext">Jobs, personal projects, and club work that I feel aren't sufficiently detailed on my resume.</p>
-    <ul class="list-disc list-inside space-y-2 ml-10">
+<ul class="grid grid-cols-1 lg:grid-cols-2 gap-6 ml-6 list-none">
+  <!-- Row 1 -->
+  <li class="space-y-2">
+    <ul class="space-y-2">
       <li>
-        <a href="https://withixion.com" class=" inline-flex items-center gap-1 hover:text-lighttextaccent"
-            target="_blank" rel="noopener noreferrer" ><span>ixion–Agentic AI inventory management</span>
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
-            </svg>    
-          </a>
-      </li>
-      <li><a href="beerbelly.html" class="hover:text-lighttextaccent">Beerbelly</a></li>
-      <li><a href="about.html" class="hover:text-lighttextaccent">This website</a></li>
-      <li>
-        <a href="bevboost.html" class="inline-flex flex-col mb-4 hover:text-lighttextaccent">
-          Beer canning automation at BevBoost
-          <div class="mt-2 flex gap-2">
-            <video autoplay loop muted playsinline class ="h-45 rounded shadow">
-              <source src="assets/images/bevboost.webm" alt="Bevboost filler" type="video/webm">
-            </video>
-            <video autoplay loop muted playsinline class="h-45 rounded shadow">
-              <source src="assets/images/bevboost2.webm" alt="Bevboost dropper" type="video/webm">
-            </video>
+        <a href="https://withixion.com"
+           target="_blank" rel="noopener noreferrer">
+          <div class="hover:text-lighttextaccent inline-flex items-center gap-1">
+            <h2 class="hover:text-lighttextaccent text-base text-lightaccent font-bold">
+            ixion
+          </h2>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+               stroke-width="1.5" stroke="currentColor" class="size-4">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0
+                     5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5
+                     6L21 3m0 0h-5.25M21 3v5.25"/>
+          </svg>
           </div>
+          <p class="text-sm mb-4">Agentic AI inventory & ordering management</p>
+
         </a>
       </li>
-      <li>
-        <a href="h4d.html" class="inline-flex flex-col mb-4 hover:text-lighttextaccent">
-          Creating 3D models from a single image
-          <div class="mt-2 flex gap-2">
-            <img src="assets/images/dog.jpg" alt="3D model from single image preview" class="h-45 rounded shadow">
-            <video autoplay loop muted playsinline class ="h-45 rounded shadow">
-              <source src="assets/images/h4d.webm" alt="H4D video" type="video/webm">
-            </video>
-          </div>
-        </a>
-      </li>
-      <li>
-        <a href="balloons.html" class="inline-flex flex-col mb-4 hover:text-lighttextaccent">High altitude balloons
-          <div class="mt-2"></div>
-            <video autoplay loop muted playsinline class ="h-45 rounded shadow">
-                <source src="assets/images/balloons.webm" alt="High altitude balloons" type="video/webm">
-            </video>
-          </div>
-        </a>
-      </li>
+      <li><a href="beerbelly.html">
+        <h2 class="hover:text-lighttextaccent text-base text-lightaccent font-bold">Beerbelly</h2>
+        <p class="text-sm mb-4">Rate beers and see what your friends are drinking</p>
+      </a></li>
+      <li><a href="about.html">
+        <h2 class="hover:text-lighttextaccent text-base text-lightaccent font-bold">This website</h2>
+        <p class="text-sm mb-4">About</p>
+      </a></li>
     </ul>
+  </li>
+
+  <li>
+    <a href="bevboost.html" class="inline-flex flex-col">
+      <h2 class="hover:text-lighttextaccent text-base text-lightaccent font-bold">Beer canning automation</h2>
+      <p class="text-sm mb-1">Programming PLCs for BevBoost to optimize canning speeds</p>
+      <div class="mt-2 flex gap-2">
+        <video autoplay loop muted playsinline class="h-45 rounded shadow">
+          <source src="assets/images/bevboost.webm" type="video/webm">
+        </video>
+        <video autoplay loop muted playsinline class="h-45 rounded shadow">
+          <source src="assets/images/bevboost2.webm" type="video/webm">
+        </video>
+      </div>
+    </a>
+  </li>
+
+  <!-- Row 2 -->
+  <li>
+  <a href="h4d.html" class="inline-flex flex-col">
+    <h2 class="hover:text-lighttextaccent text-base text-lightaccent font-bold">Creating 3D models from a single image</h2>
+    <p class="text-sm mb-1">US Central Command (CENTCOM) challenge to map unknown or hostile environments</p>
+    <div class="mt-2 flex flex-col lg:flex-row gap-2">
+      <img src="assets/images/dog.jpg" alt="3D model preview"
+           class="w-full max-h-60 lg:w-1/2 rounded shadow">
+      <video autoplay loop muted playsinline class="w-full max-h-60 lg:w-1/2 rounded shadow">
+        <source src="assets/images/h4d.webm" type="video/webm">
+      </video>
+    </div>
+  </a>
+</li>
+
+<!-- Balloons project -->
+<li>
+  <a href="balloons.html" class="inline-flex flex-col">
+    <h2 class="hover:text-lighttextaccent text-base text-lightaccent font-bold">High altitude balloons</h2>
+    <p class="text-sm mb-1">Building and launching high altitude balloons to near space</p>
+    <div class="mt-2 flex flex-col lg:flex-row gap-2">
+      <video autoplay loop muted playsinline class="w-full max-h-60 rounded shadow">
+        <source src="assets/images/balloons.webm" type="video/webm">
+      </video>
+    </div>
+  </a>
+</li>
+</ul>
+
+
+
+
   </main>
 
   <script>
