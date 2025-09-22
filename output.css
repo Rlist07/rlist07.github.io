@@ -376,6 +376,9 @@
   .max-h-75 {
     max-height: calc(var(--spacing) * 75);
   }
+  .max-h-96 {
+    max-height: calc(var(--spacing) * 96);
+  }
   .max-h-\[90vh\] {
     max-height: 90vh;
   }
@@ -579,6 +582,9 @@
   .p-8 {
     padding: calc(var(--spacing) * 8);
   }
+  .text-center {
+    text-align: center;
+  }
   .font-serif {
     font-family: var(--font-serif);
   }
@@ -670,6 +676,11 @@
       @media (hover: hover) {
         color: var(--color-lighttextaccent);
       }
+    }
+  }
+  .sm\:w-3\/4 {
+    @media (width >= 40rem) {
+      width: calc(3/4 * 100%);
     }
   }
   .sm\:flex-1 {

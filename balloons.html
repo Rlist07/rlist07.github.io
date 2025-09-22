@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roland High Altitude Balloons</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+<body class="font-serif flex bg-lightbg text-lighttext">
+  
+  <div id="sidebar" class="fixed top-0 left-0 h-screen w-56"></div>
+
+  <main class="ml-56 mr-0 p-8 flex-1">
+
+    
+    <h2 class="w-3/4 text-2xl mb-4 font-bold text-lightaccent">High Altitude Balloons with Columbia Space Initiative</h2>
+    <p class="w-3/4 text-base mb-6">
+        High altitude balloons is a subteam of 
+        <a href="https://columbiaspace.org/" class=" inline-flex items-center gap-1 hover:text-lighttextaccent"
+            target="_blank" rel="noopener noreferrer" ><span>Columbia Space Initiative</span>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+            </svg>    
+        </a>
+        . We work to build and launch high altitude balloons to near space. I've been a member
+        since fall '23 and have participated in two launches so far.
+    </p>
+
+    <div class="w-full grid grid-cols-1 md:grid-cols-2 gap-4">
+        <section>
+            <h2 class="text-lg text-lightaccent font-bold mb-1">Spring '24 launch</h2>
+            <p class="text-base">
+                This was the team's first launch in nearly a decade. We launched from update New York with a projected payload landing in Eastern
+                Connecticut. The payload consisted of a GoPro, temperature and humidity sensors, and altimiter. Sensors were powered by an arduino
+                and would save data every few minutes to be reviewed after recovery.
+                <br>
+                We would track the payload with a GPS module relaying its position to a handheld radio, which would communicate with us through
+                APRS (Automatic Packet Reporting System). We also used a commercially available GPS tracker as a backup.
+            </p>
+            <h2 class="text-base text-lightaccent font-bold mb-1 mt-4">Problems</h2>
+            <p class="text-base">
+                Our first issue involved the tracking systems. We lost signal from both immediately after launch, and lost our payload. We would later
+                find out that the two GPS units were interfering with each other.
+                <br>
+                I told the team that one GPS unit would outlast the other, at which point it would start communicating again, and we'd be able to recover the payload.
+                <br>
+                This came to fruition the next day, but another problem arose: the balloon was underfilled.
+                <br>
+                As a balloon ascends, it expands until it bursts. An underfilled balloon ascends slower, so it is carried further by wind before it bursts.
+                <br>
+                What was supposed to be a 3 hour flight for our balloon turned out to be an 18 hour flight. Our commercial GPS tracker started pinging in the morning at
+                30,000 feet, which means the payload was descending. Except it was pinging a few hundred miles off the Eastern cost of the US. We watched for half
+                an hour as the payload fell into the Atlantic and went silent.
+            </p>
+            <div class="mt-4 flex flex-wrap sm:flex-nowrap gap-4">
+                <!-- Image 1 -->
+                <figure class="basis-full sm:basis-0 sm:flex-1 min-w-0">
+                    <img src="assets/images/balloon1.png" alt="First balloon payload"
+                        class="block w-auto max-h-60 rounded shadow object-contain mx-auto">
+                    <figcaption class="mt-2 text-center text-sm text-lighttext">
+                    Balloon payload
+                    </figcaption>
+                </figure>
+
+                <!-- Image 2 -->
+                <figure class="basis-full sm:basis-0 sm:flex-1 min-w-0">
+                    <img src="assets/images/balloon2.png" alt="Payload in ocean"
+                        class="block w-auto max-h-60 rounded shadow object-contain mx-auto">
+                    <figcaption class="mt-2 text-center text-sm text-lighttext">
+                    Payload final resting place
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-lg text-lightaccent font-bold mb-2">Fall '24 launch</h2>
+            <p class="text-base">
+                The goal for this launch was a successful recovery. We lightened the payload, used only one GPS unit, and verified the balloon was filled all the way.
+                The frame was a simple triangle made from plywood with an Insta360 camera, portable battery, and GPS at each corner.
+                <br>
+                Our launch was successful, but the balloon landed in a very tall tree in someone's backyard in Connecticut. This someone turned out to be a profesional
+                tree trimmer. About a month later he would cut down our payload and ship it to Columbia.
+                <br>
+                Typically, at high altitudes you have to worry about extreme cold temperatures. It turns out the Insta360 would have the opposite problem: overheating.
+                The camera would shut off at a few thousand feet, so our footage is limited to the first half hour out of a 2.5 hour flight.
+                <br>
+                A cinematic video of the launch is
+                <a href="https://www.youtube.com/watch?v=HKMDcCpAlpo" class=" inline-flex items-center gap-1 hover:text-lighttextaccent"
+                    target="_blank" rel="noopener noreferrer" ><span>here</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>    
+                </a>
+                , courtesy of 
+                <a href="https://www.claudioianphoto.in/" class=" inline-flex items-center gap-1 hover:text-lighttextaccent"
+                    target="_blank" rel="noopener noreferrer" ><span>Claudio</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                    </svg>    
+                </a>
+                , a (now graduated) team member.
+            </p>
+            <div class="mt-4 flex flex-wrap sm:flex-nowrap gap-4">
+                <figure class="basis-full sm:basis-0 sm:flex-1 min-w-0">
+                <img src="assets/images/balloon3.jpeg" alt="Second balloon payload"
+                    class="block w-auto max-h-70 rounded shadow object-contain mx-auto">
+                <figcaption class="mt-2 text-center text-sm text-lighttext">
+                    Second balloon payload
+                </figcaption>
+                </figure>
+                <figure class="basis-full sm:basis-0 sm:flex-1 min-w-0">
+                <img src="assets/images/balloon5.jpeg" alt="Second balloon"
+                    class="block w-auto max-h-70 rounded shadow object-contain mx-auto">
+                <figcaption class="mt-2 text-center text-sm text-lighttext">
+                    Inflated weather balloon
+                </figcaption>
+                </figure>
+                <figure class="basis-full sm:basis-0 sm:flex-1 min-w-0">
+                <img src="assets/images/balloon4.jpeg" alt="Payload in tree"
+                    class="block w-auto max-h-70 rounded shadow object-contain mx-auto">
+                <figcaption class="mt-2 text-center text-sm text-lighttext">
+                    Payload in tree
+                </figcaption>
+                </figure>
+            </div>
+            <div class="mt-6 flex justify-center">
+                <figure class="w-full sm:w-3/4 lg:w-1/2">
+                <video autoplay loop muted playsinline class="w-full max-h-96 rounded shadow">
+                    <source src="assets/images/balloons.webm" type="video/webm">
+                </video>
+                <figcaption class="mt-2 text-center text-sm text-lighttext">
+                    Insta360 footage of flight before overheating
+                </figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-lg text-lightaccent font-bold mb-2">Pico Balloons</h2>
+            <p class="text-base">
+                This year we are focusing on pico balloons, which are very small balloons with very light payloads.
+                <br>
+                The balloons should be able to circumnavigate the globe multiple times, and give us their location a few times a day.
+                They'll be solar powered with a GPS unit and a couple weather sensors.
+                <br>
+                Stay tuned...
+            </p>
+        </section>
+
+    </div>   
+  </main>
+
+  <script>
+    fetch("sidebar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("sidebar").innerHTML = data;
+      });
+  </script>
+
+  <script>
+    function openOverlay(element) {
+    const overlay = document.getElementById("mediaOverlay");
+    const content = document.getElementById("overlayContent");
+
+    // Clear old content
+    content.innerHTML = "";
+
+    if (element.tagName === "IMG") {
+        const img = document.createElement("img");
+        img.src = element.src;
+        img.alt = element.alt;
+        img.className = "w-full h-auto rounded";
+        content.appendChild(img);
+    } else if (element.tagName === "VIDEO") {
+        const video = document.createElement("video");
+        video.src = element.querySelector("source").src;
+        video.controls = true;
+        video.autoplay = true;
+        video.className = "w-full h-auto rounded";
+        content.appendChild(video);
+    }
+
+    overlay.classList.remove("hidden");
+    overlay.classList.add("flex");
+    }
+
+    function closeOverlay() {
+    const overlay = document.getElementById("mediaOverlay");
+    const content = document.getElementById("overlayContent");
+    overlay.classList.add("hidden");
+    overlay.classList.remove("flex");
+    content.innerHTML = "";
+    }
+  </script>
+
+  <div id="mediaOverlay" 
+        class="fixed inset-0 bg-black bg-opacity-80 hidden items-center justify-center z-50">
+    <span class="absolute top-4 right-6 text-white text-3xl cursor-pointer" onclick="closeOverlay()">&times;</span>
+    <div id="overlayContent" class="max-w-5xl max-h-[90vh]">
+        <!-- media gets injected here -->
+    </div>
+  </div>
+
+</body>
+</html>
