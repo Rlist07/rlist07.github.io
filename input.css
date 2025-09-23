@@ -2,10 +2,10 @@
 @tailwind utilities;
  /*npm run watch*/
 @theme {
-  --color-lightbg: #091F1C;
-  --color-lightbgaccent: #F4F6F4;
+  --color-lightbg: #f7f3de;
+  --color-lightbgaccent: #f1edcf;
   --color-lighttext: #0A0A0A;
-  --color-lightaccent: #132A13;
+  --color-lightaccent: #1c3517;
   --color-lighttextaccent: #766E87;
   --color-lightlink: #312E38;
 }
