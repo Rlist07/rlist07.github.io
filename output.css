@@ -40,11 +40,12 @@
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --color-lightbg: #FFFFFF;
-    --color-lightbgaccent: #F4F6F4;
+    --color-lightbg: #F6F3DF;
+    --color-lightbgaccent: #F2EDCF;
     --color-lighttext: #0A0A0A;
-    --color-lightaccent: #132A13;
+    --color-lightaccent: #193819;
     --color-lighttextaccent: #766E87;
+    --color-lightlink: #312E38;
   }
 }
 @layer base {
@@ -628,6 +629,9 @@
   .text-lighttextaccent {
     color: var(--color-lighttextaccent);
   }
+  .text-lightlink {
+    color: var(--color-lightlink);
+  }
   .text-white {
     color: var(--color-white);
   }
@@ -650,7 +654,19 @@
     outline-width: 1px;
   }
   .filter {
-    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,);
+    filter: var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) 
+            var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) 
+            var(--tw-drop-shadow,);
+  }
+  .brightness-75 {
+    --tw-brightness: brightness(.75);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) 
+            var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) 
+            var(--tw-drop-shadow);
+  }
+  .project-video:hover {
+    filter: brightness(0.5);
+    transition: filter 0.3s ease;
   }
   .transition {
     transition-property: color, background-color, border-color, outline-color, text-decoration-color, fill, stroke, --tw-gradient-from, --tw-gradient-via, --tw-gradient-to, opacity, box-shadow, transform, translate, scale, rotate, filter, -webkit-backdrop-filter, backdrop-filter, display, content-visibility, overlay, pointer-events;
@@ -677,6 +693,12 @@
         color: var(--color-lighttextaccent);
       }
     }
+  }
+  .hover\:brightness-75:hover {
+    --tw-brightness: brightness(.75);
+    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) 
+            var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) 
+            var(--tw-drop-shadow);
   }
   .sm\:w-3\/4 {
     @media (width >= 40rem) {
