@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roland Reading</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+
+<body class="w-10/12 font-serif flex bg-lightbg text-lighttext">
+  
+  <!-- Sidebar -->
+  <div id="sidebar" class="fixed top-0 left-0 h-screen w-56"></div>
+
+  <!-- Main content -->
+  <main class="ml-56 mr-0 p-8 flex-1">
+    <h2 class="text-2xl mb-1 font-bold text-lightaccent">
+      Books I’ve Read
+    </h2>
+    <p class="text-base mb-6">
+      Click on a cover or title to see more info.
+    </p>
+
+    <!-- Goodreads widget placeholder -->
+    <div id="reading-widget" class="mt-6"></div>
+  </main>
+
+  <!-- Script to load sidebar + reading widget -->
+  <script>
+    // Load sidebar
+    fetch("sidebar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("sidebar").innerHTML = data;
+      });
+
+    // Load Goodreads widget
+    fetch("books.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("reading-widget").innerHTML = data;
+      });
+  </script>
+</body>
+</html>

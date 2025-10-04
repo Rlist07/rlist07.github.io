@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link href="output.css" rel="stylesheet"/>
+<style data-injected="books-grid">/* Responsive grid layout */
+.books-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* default: single column */
+  gap: 2rem;
+}
+@media (min-width: 1024px) {
+  .books-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.card { width:100%; }
+
+/* Custom styles instead of @apply */
+.book-cover {
+  padding-right: 0.5rem; /* Tailwind's pr-2 */
+}</style>
+</head>
+<body class="bg-lightbg text-lighttext font-serif p-8">
+<div class="books-grid">
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7836298716?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="East of Eden" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753949577l/28251243._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7836298716?utm_medium=api&amp;utm_source=custom_widget" target="_blank">East of Eden</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/585.John_Steinbeck" target="_blank">John Steinbeck</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7836294159?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Ubik" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344672961l/12346742._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7836294159?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Ubik</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4764.Philip_K_Dick" target="_blank">Philip K. Dick</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7796116089?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="American Psycho" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436934349l/28676._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7796116089?utm_medium=api&amp;utm_source=custom_widget" target="_blank">American Psycho</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/2751.Bret_Easton_Ellis" target="_blank">Bret Easton Ellis</a></p>
+<p class="text-lightaccent text-lg">★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7795900776?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Bluebeard" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516339874l/9601._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7795900776?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Bluebeard</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_" target="_blank">Kurt Vonnegut Jr.</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7748893503?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Blood Meridian, or, the Evening Redness in the West" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701688704l/394535._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7748893503?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Blood Meridian, or, the Evening Redness in the West</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4178.Cormac_McCarthy" target="_blank">Cormac McCarthy</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7730936008?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Woman Destroyed" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525378903l/141421._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7730936008?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Woman Destroyed</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/5548.Simone_de_Beauvoir" target="_blank">Simone de Beauvoir</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728009446?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="No Country for Old Men" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1740778210l/23515727._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728009446?utm_medium=api&amp;utm_source=custom_widget" target="_blank">No Country for Old Men</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4178.Cormac_McCarthy" target="_blank">Cormac McCarthy</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728319642?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="On Earth We're Briefly Gorgeous" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615580168l/41880609._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728319642?utm_medium=api&amp;utm_source=custom_widget" target="_blank">On Earth We're Briefly Gorgeous</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4456871.Ocean_Vuong" target="_blank">Ocean Vuong</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728090431?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Dirk Gently's Holistic Detective Agency" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626126881l/58151321._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728090431?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Dirk Gently's Holistic Detective Agency</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4.Douglas_Adams" target="_blank">Douglas Adams</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727999886?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Infinite Jest" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415152661l/544063._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727999886?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Infinite Jest</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4339.David_Foster_Wallace" target="_blank">David Foster Wallace</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728000351?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Turn of the Screw" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746639240l/10882679._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728000351?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Turn of the Screw</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/159.Henry_James" target="_blank">Henry James</a></p>
+<p class="text-lightaccent text-lg">★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727990279?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Dune Messiah" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727990279?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Dune Messiah</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/58.Frank_Herbert" target="_blank">Frank Herbert</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727989042?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Road" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600667691l/350540._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727989042?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Road</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4178.Cormac_McCarthy" target="_blank">Cormac McCarthy</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728001457?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Life, the Universe and Everything" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731228l/55014944._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728001457?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Life, the Universe and Everything</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4.Douglas_Adams" target="_blank">Douglas Adams</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728001372?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Restaurant at the End of the Universe" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731269l/55014882._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728001372?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Restaurant at the End of the Universe</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4.Douglas_Adams" target="_blank">Douglas Adams</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728001825?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Mostly Harmless" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731248l/55015075._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728001825?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Mostly Harmless</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4.Douglas_Adams" target="_blank">Douglas Adams</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728001518?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="So Long, and Thanks for All the Fish" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731182l/55015029._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728001518?utm_medium=api&amp;utm_source=custom_widget" target="_blank">So Long, and Thanks for All the Fish</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4.Douglas_Adams" target="_blank">Douglas Adams</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728001077?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Hitchhiker's Guide to the Galaxy" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590830485l/53654093._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728001077?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Hitchhiker's Guide to the Galaxy</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4.Douglas_Adams" target="_blank">Douglas Adams</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728002388?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Red Badge of Courage: A Novel of the Civil War" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660490206l/61964870._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728002388?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Red Badge of Courage: A Novel of the Civil War</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/19879.Stephen_Crane" target="_blank">Stephen Crane</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727995303?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Joke" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1720883091l/397281._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727995303?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Joke</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/6343.Milan_Kundera" target="_blank">Milan Kundera</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727996192?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Metamorphosis" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395614944l/17986414._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727996192?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Metamorphosis</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/5223.Franz_Kafka" target="_blank">Franz Kafka</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727989662?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735428393l/59820274._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727989662?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/5237.Hunter_S_Thompson" target="_blank">Hunter S. Thompson</a></p>
+<p class="text-lightaccent text-lg">★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727996667?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="To the Lighthouse" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681571588l/123503431._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727996667?utm_medium=api&amp;utm_source=custom_widget" target="_blank">To the Lighthouse</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/6765.Virginia_Woolf" target="_blank">Virginia Woolf</a></p>
+<p class="text-lightaccent text-lg">★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728002786?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Einstein’s Dreams" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386925066l/14376._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728002786?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Einstein’s Dreams</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/8933.Alan_Lightman" target="_blank">Alan Lightman</a></p>
+<p class="text-lightaccent text-lg">★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728003178?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Notes from Underground" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657562670l/49455._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728003178?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Notes from Underground</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/3137322.Fyodor_Dostoevsky" target="_blank">Fyodor Dostoevsky</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728005757?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Marx-Engels Reader" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440637767l/52184._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728005757?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Marx-Engels Reader</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/7084.Karl_Marx" target="_blank">Karl Marx</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728003661?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Into the Wild" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650755924l/60869516._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728003661?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Into the Wild</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/1235.Jon_Krakauer" target="_blank">Jon Krakauer</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728004575?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Player Piano" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598907389l/55196549._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728004575?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Player Piano</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_" target="_blank">Kurt Vonnegut Jr.</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728004178?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Cat's Cradle" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1339987922l/11828537._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728004178?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Cat's Cradle</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_" target="_blank">Kurt Vonnegut Jr.</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728102156?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Republic" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580978211l/70551._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728102156?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Republic</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/879.Plato" target="_blank">Plato</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727996853?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="As I Lay Dying" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1757102388l/77013._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727996853?utm_medium=api&amp;utm_source=custom_widget" target="_blank">As I Lay Dying</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/3535.William_Faulkner" target="_blank">William Faulkner</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727995188?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Book of Laughter and Forgetting" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614905132l/240976._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727995188?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Book of Laughter and Forgetting</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/6343.Milan_Kundera" target="_blank">Milan Kundera</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727989289?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Dune" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460494305l/29889255._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727989289?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Dune</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/58.Frank_Herbert" target="_blank">Frank Herbert</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727995231?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Immortality" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388507539l/28634._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727995231?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Immortality</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/6343.Milan_Kundera" target="_blank">Milan Kundera</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727989366?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Catch-22" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463157317l/168668._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727989366?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Catch-22</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/3167.Joseph_Heller" target="_blank">Joseph Heller</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728006232?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The State and Revolution" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358889486l/179612._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728006232?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The State and Revolution</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/104630.Vladimir_Lenin" target="_blank">Vladimir Lenin</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727991058?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Slaughterhouse-Five" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645831073l/8123395._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727991058?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Slaughterhouse-Five</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_" target="_blank">Kurt Vonnegut Jr.</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727989413?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="A Clockwork Orange" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549260060l/41817486._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727989413?utm_medium=api&amp;utm_source=custom_widget" target="_blank">A Clockwork Orange</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/5735.Anthony_Burgess" target="_blank">Anthony Burgess</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727990017?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Do Androids Dream of Electric Sheep?" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753307553l/57460539._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727990017?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Do Androids Dream of Electric Sheep?</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4764.Philip_K_Dick" target="_blank">Philip K. Dick</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727999181?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Plague" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481459910l/18757378._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727999181?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Plague</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/957894.Albert_Camus" target="_blank">Albert Camus</a></p>
+<p class="text-lightaccent text-lg">★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727997507?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Myth of Sisyphus" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1526931180l/39947376._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727997507?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Myth of Sisyphus</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/957894.Albert_Camus" target="_blank">Albert Camus</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728004986?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Man in the High Castle" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388378388l/20351202._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728004986?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Man in the High Castle</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/4764.Philip_K_Dick" target="_blank">Philip K. Dick</a></p>
+<p class="text-lightaccent text-lg">★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728095474?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Frankenstein (1831 Edition): 200th Anniversary Collection" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544940833l/43245118._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728095474?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Frankenstein (1831 Edition): 200th Anniversary Collection</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/11139.Mary_Wollstonecraft_Shelley" target="_blank">Mary Wollstonecraft Shelley</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728005657?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Communist Manifesto" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355995247l/8805658._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728005657?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Communist Manifesto</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/7084.Karl_Marx" target="_blank">Karl Marx</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727989852?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Trial" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415204139l/17692._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727989852?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Trial</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/5223.Franz_Kafka" target="_blank">Franz Kafka</a></p>
+<p class="text-lightaccent text-lg">★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727995127?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Unbearable Lightness of Being" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1265401884l/9717._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727995127?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Unbearable Lightness of Being</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/6343.Milan_Kundera" target="_blank">Milan Kundera</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727997391?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Fall" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738704293l/11991._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727997391?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Fall</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/957894.Albert_Camus" target="_blank">Albert Camus</a></p>
+<p class="text-lightaccent text-lg">★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727987289?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Stranger" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738704267l/49552._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727987289?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Stranger</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/957894.Albert_Camus" target="_blank">Albert Camus</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727987616?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Lord of the Flies" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529175026l/40542121._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727987616?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Lord of the Flies</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/306.William_Golding" target="_blank">William Golding</a></p>
+<p class="text-lightaccent text-lg">★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727986397?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="To Kill a Mockingbird" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612238791l/56916837._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727986397?utm_medium=api&amp;utm_source=custom_widget" target="_blank">To Kill a Mockingbird</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/1825.Harper_Lee" target="_blank">Harper Lee</a></p>
+<p class="text-lightaccent text-lg">★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727988453?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Of Mice and Men" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555494938l/45159584._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727988453?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Of Mice and Men</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/585.John_Steinbeck" target="_blank">John Steinbeck</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727986933?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="Animal Farm" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727986933?utm_medium=api&amp;utm_source=custom_widget" target="_blank">Animal Farm</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/3706.George_Orwell" target="_blank">George Orwell</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727986303?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Great Gatsby" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650033243l/41733839._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727986303?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Great Gatsby</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/3190.F_Scott_Fitzgerald" target="_blank">F. Scott Fitzgerald</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727987527?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Catcher in the Rye" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398034300l/5107._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727987527?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Catcher in the Rye</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/819789.J_D_Salinger" target="_blank">J.D. Salinger</a></p>
+<p class="text-lightaccent text-lg">★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727992536?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Giver" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342493368l/3636._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727992536?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Giver</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/2493.Lois_Lowry" target="_blank">Lois Lowry</a></p>
+<p class="text-lightaccent text-lg">★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728007787?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="A Confederacy of Dunces" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562554946l/310612._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728007787?utm_medium=api&amp;utm_source=custom_widget" target="_blank">A Confederacy of Dunces</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/3049.John_Kennedy_Toole" target="_blank">John Kennedy Toole</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7727991593?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Outsiders" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689626520l/192566704._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7727991593?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Outsiders</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/762707.S_E_Hinton" target="_blank">S.E. Hinton</a></p>
+<p class="text-lightaccent text-lg">★★</p>
+</div>
+</div>
+</div>
+<div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+<div class="flex-shrink-0 w-24 flex items-start book-cover">
+<a href="https://www.goodreads.com/review/show/7728109568?utm_medium=api&amp;utm_source=custom_widget" target="_blank"><img alt="The Adventures of Captain Underpants" class="w-full h-auto object-contain rounded" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348215410l/207266._SY130_.jpg"/></a>
+</div>
+<div class="flex-1 flex flex-col justify-between">
+<div>
+<h2 class="text-xl font-bold text-lightaccent book-title"><a class="hover:text-lighttextaccent" href="https://www.goodreads.com/review/show/7728109568?utm_medium=api&amp;utm_source=custom_widget" target="_blank">The Adventures of Captain Underpants</a></h2>
+<p class="text-sm text-gray-600">by <a class="hover:text-lighttextaccent" href="https://www.goodreads.com/author/show/33280.Dav_Pilkey" target="_blank">Dav Pilkey</a></p>
+<p class="text-lightaccent text-lg">★★★★★</p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
