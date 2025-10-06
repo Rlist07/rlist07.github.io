@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKS41M0BWK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FKS41M0BWK');
+  </script>
+  <meta charset="UTF-8">
+  <title>Tab title</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+
+<body class="w-3/4 font-serif flex bg-lightbg text-lighttext">
+  
+  <div id="sidebar" class="fixed top-0 left-0 h-screen w-56"></div>
+
+  <main class="ml-56 mr-0 p-8 flex-1">
+    <h2 class="text-2xl mb-4 font-bold text-lightaccent">
+      Title
+    </h2>
+  </main>
+
+  <script>
+    fetch("sidebar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("sidebar").innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>

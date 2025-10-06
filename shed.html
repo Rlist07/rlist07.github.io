@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKS41M0BWK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-FKS41M0BWK');
+  </script>
+  <meta charset="UTF-8">
+  <title>Roland shed</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+
+<body class="w-3/4 font-serif flex bg-lightbg text-lighttext">
+  
+  <div id="sidebar" class="fixed top-0 left-0 h-screen w-56"></div>
+
+  <main class="ml-56 mr-0 p-8 flex-1">
+    <h2 class="text-2xl mb-4 font-bold text-lightaccent">
+      Converting a garden shed into a spare bedroom
+    </h2>
+    <p class="text-base mb-4">
+      Moved to a new house, and the previous owner had a 100 sqft shed in the backyard that he used as a woodshop.
+      <br>
+      I decided to try my hand in general contracting and convert it into a spare bedroom. For myself. To sleep in.
+    </p>
+    <h2 class="text-xl mb-2 font-bold text-lightaccent">
+      ToDo
+    </h2>
+
+    <div class="flex flex-col lg:flex-row gap-4">
+      <ol class="list-disc ml-8">
+        <li>Install new window on East wall</li>
+        <li>Run electrical</li>
+        <li>Ceiling ventilation</li>
+        <li>Insulate walls and ceiling</li>
+        <li>Drywall walls and ceiling</li>
+        <li>Paint walls and ceiling</li>
+        <li>Install flooring</li>
+        <li>Install baseboards and trim</li>
+      </ol>
+      <div class="flex flex-row gap-4">
+        <img src="assets/images/shed_before_1.jpeg" alt="Shed before west wall"
+                        class="max-h-60">
+        <img src="assets/images/shed_before_2.jpeg" alt="Shed before east wall"
+                      class="max-h-60">     
+      </div>
+    </div>
+
+    <h2 class="text-xl mb-2 mt-6 font-bold text-lightaccent">
+      Progress
+    </h2>
+
+  </main>
+
+  <script>
+    fetch("sidebar.html")
+      .then(response => response.text())
+      .then(data => {
+        document.getElementById("sidebar").innerHTML = data;
+      });
+  </script>
+
+</body>
+</html>
