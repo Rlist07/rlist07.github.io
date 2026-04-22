@@ -4,10 +4,24 @@
   <meta charset="UTF-8">
   <title>Roland Reading</title>
   <link href="output.css" rel="stylesheet">
+  <style>
+    .books-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+    }
+    @media (min-width: 1024px) {
+      .books-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+    .card { width: 100%; }
+    .book-cover { padding-right: 0.5rem; }
+  </style>
 </head>
 
 <body class="w-10/12 font-serif flex bg-lightbg text-lighttext">
-  
+
   <!-- Sidebar -->
   <div id="sidebar" class="fixed top-0 left-0 h-screen w-56"></div>
 
@@ -20,24 +34,69 @@
       Click on a cover or title to see more info.
     </p>
 
-    <!-- Goodreads widget placeholder -->
-    <div id="reading-widget" class="mt-6"></div>
+    <div id="books-grid" class="books-grid"></div>
   </main>
 
-  <!-- Script to load sidebar + reading widget -->
   <script>
-    // Load sidebar
+    // Sidebar (plain HTML — innerHTML is fine)
     fetch("sidebar.html")
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById("sidebar").innerHTML = data;
+      .then((r) => r.text())
+      .then((html) => {
+        document.getElementById("sidebar").innerHTML = html;
       });
 
-    // Load Goodreads widget
-    fetch("books.html")
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById("reading-widget").innerHTML = data;
+    // Books: fetch books.json and render. To add a book, edit books.json.
+    function escapeHtml(s) {
+      return String(s ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#39;");
+    }
+
+    function stars(n) {
+      const filled = Math.max(0, Math.min(5, Number(n) || 0));
+      return "★".repeat(filled);
+    }
+
+    function cardHtml(b) {
+      const title = escapeHtml(b.title);
+      const cover = escapeHtml(b.cover);
+      const review = escapeHtml(b.review || "#");
+      const author = escapeHtml(b.author);
+      const authorLink = escapeHtml(b.authorLink || "#");
+      const finished = escapeHtml(b.finished || "");
+      return `
+        <div class="items-stretch p-4 space-x-6 border text-black rounded-lg card bg-white shadow-sm flex">
+          <div class="flex-shrink-0 w-24 flex items-start book-cover">
+            <a href="${review}" target="_blank">
+              <img alt="${title}" class="w-full h-auto object-contain rounded" src="${cover}" />
+            </a>
+          </div>
+          <div class="flex-1 flex flex-col justify-between">
+            <div>
+              <h2 class="text-xl font-bold text-lightaccent book-title">
+                <a class="hover:text-lighttextaccent" href="${review}" target="_blank">${title}</a>
+              </h2>
+              <p class="text-sm text-lighttext">by
+                <a class="hover:text-lighttextaccent" href="${authorLink}" target="_blank">${author}</a>
+              </p>
+              <p class="text-lightaccent text-lg">${stars(b.rating)}</p>
+              <p class="text-sm text-lighttext">Finished ${finished}</p>
+            </div>
+          </div>
+        </div>`;
+    }
+
+    const grid = document.getElementById("books-grid");
+    fetch("books.json")
+      .then((r) => r.json())
+      .then((books) => {
+        grid.innerHTML = books.map(cardHtml).join("");
+      })
+      .catch((err) => {
+        grid.innerHTML = `<p style="color:#b91c1c">Failed to load books.json: ${escapeHtml(err.message)}</p>`;
       });
   </script>
 </body>

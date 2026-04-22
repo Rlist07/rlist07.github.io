@@ -1,0 +1,668 @@
+[
+  {
+    "title": "A Confession",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328864608l/876095._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8537159860",
+    "author": "Leo Tolstoy",
+    "authorLink": "https://www.goodreads.com/author/show/128382.Leo_Tolstoy",
+    "rating": 4,
+    "finished": "04/21/2026"
+  },
+  {
+    "title": "The Postman Always Rings Twice",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330271399l/591352._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8337359936",
+    "author": "James M. Cain",
+    "authorLink": "https://www.goodreads.com/author/show/14473.James_M_Cain",
+    "rating": 4,
+    "finished": "04/12/2026"
+  },
+  {
+    "title": "The Sun Also Rises",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626114574l/57933315._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8256342782",
+    "author": "Ernest Hemingway",
+    "authorLink": "https://www.goodreads.com/author/show/1455.Ernest_Hemingway",
+    "rating": 4,
+    "finished": "04/06/2026"
+  },
+  {
+    "title": "A Gentle Creature",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431713499l/6379901._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8459622259",
+    "author": "Fyodor Dostoevsky",
+    "authorLink": "https://www.goodreads.com/author/show/3137322.Fyodor_Dostoevsky",
+    "rating": 3,
+    "finished": "03/22/2026"
+  },
+  {
+    "title": "Wuthering Heights",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478641029l/32929156._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8037394516",
+    "author": "Emily Brontë",
+    "authorLink": "https://www.goodreads.com/author/show/4191.Emily_Bront_",
+    "rating": 4,
+    "finished": "03/12/2026"
+  },
+  {
+    "title": "Bread Givers",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1676307444l/61965078._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8337362903",
+    "author": "Anzia Yezierska",
+    "authorLink": "https://www.goodreads.com/author/show/2494.Anzia_Yezierska",
+    "rating": 3,
+    "finished": "03/02/2026"
+  },
+  {
+    "title": "My Ántonia",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309202839l/157975._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8337362191",
+    "author": "Willa Cather",
+    "authorLink": "https://www.goodreads.com/author/show/881203.Willa_Cather",
+    "rating": 3,
+    "finished": "02/23/2026"
+  },
+  {
+    "title": "Cane",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1708109320l/9814533._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8337360622",
+    "author": "Jean Toomer",
+    "authorLink": "https://www.goodreads.com/author/show/25096.Jean_Toomer",
+    "rating": 2,
+    "finished": "02/16/2026"
+  },
+  {
+    "title": "The Bell Jar",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668645154l/56616095._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8255596662",
+    "author": "Sylvia Plath",
+    "authorLink": "https://www.goodreads.com/author/show/4379.Sylvia_Plath",
+    "rating": 4,
+    "finished": "02/16/2026"
+  },
+  {
+    "title": "Notes From a Dead House",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657555680l/25852752._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8310344322",
+    "author": "Fyodor Dostoevsky",
+    "authorLink": "https://www.goodreads.com/author/show/3137322.Fyodor_Dostoevsky",
+    "rating": 4,
+    "finished": "02/04/2026"
+  },
+  {
+    "title": "The Sebastopol Sketches",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441248297l/50269._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8307561874",
+    "author": "Leo Tolstoy",
+    "authorLink": "https://www.goodreads.com/author/show/128382.Leo_Tolstoy",
+    "rating": 3,
+    "finished": "01/28/2026"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1184825807l/1532798._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/8230105929",
+    "author": "Jane Austen",
+    "authorLink": "https://www.goodreads.com/author/show/1265.Jane_Austen",
+    "rating": 3,
+    "finished": "01/14/2026"
+  },
+  {
+    "title": "The Brothers Karamazov",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624828008l/56269008._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7796010542",
+    "author": "Fyodor Dostoevsky",
+    "authorLink": "https://www.goodreads.com/author/show/3137322.Fyodor_Dostoevsky",
+    "rating": 5,
+    "finished": "01/06/2026"
+  },
+  {
+    "title": "The Long Dark Tea-Time of the Soul",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475435635l/862856._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7822600408",
+    "author": "Douglas Adams",
+    "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
+    "rating": 3,
+    "finished": "11/22/2025"
+  },
+  {
+    "title": "The Sound and the Fury",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1757102364l/10975._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7795996975",
+    "author": "William Faulkner",
+    "authorLink": "https://www.goodreads.com/author/show/3535.William_Faulkner",
+    "rating": 5,
+    "finished": "11/09/2025"
+  },
+  {
+    "title": "All the Pretty Horses",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1706386113l/469571._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7795605282",
+    "author": "Cormack McCarthy",
+    "authorLink": "https://www.goodreads.com/author/show/4178.Cormac_McCarthy",
+    "rating": 4,
+    "finished": "10/04/2025"
+  },
+  {
+    "title": "East of Eden",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753949577l/28251243._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7836298716",
+    "author": "John Steinbeck",
+    "authorLink": "https://www.goodreads.com/author/show/585.John_Steinbeck",
+    "rating": 5,
+    "finished": "08/28/2025"
+  },
+  {
+    "title": "Ubik",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344672961l/12346742._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7836294159",
+    "author": "Philip K. Dick",
+    "authorLink": "https://www.goodreads.com/author/show/4764.Philip_K_Dick",
+    "rating": 4,
+    "finished": "08/18/2025"
+  },
+  {
+    "title": "American Psycho",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436934349l/28676._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7796116089",
+    "author": "Bret Easton Ellis",
+    "authorLink": "https://www.goodreads.com/author/show/2751.Bret_Easton_Ellis",
+    "rating": 2,
+    "finished": "08/17/2025"
+  },
+  {
+    "title": "Bluebeard",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516339874l/9601._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7795900776",
+    "author": "Kurt Vonnegut\n              Jr.",
+    "authorLink": "https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_",
+    "rating": 5,
+    "finished": "08/12/2025"
+  },
+  {
+    "title": "Blood Meridian, or, the Evening Redness in the West",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701688704l/394535._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7748893503",
+    "author": "Cormac McCarthy",
+    "authorLink": "https://www.goodreads.com/author/show/4178.Cormac_McCarthy",
+    "rating": 4,
+    "finished": "08/02/2025"
+  },
+  {
+    "title": "The Woman Destroyed",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525378903l/141421._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7730936008",
+    "author": "Simone de\n              Beauvoir",
+    "authorLink": "https://www.goodreads.com/author/show/5548.Simone_de_Beauvoir",
+    "rating": 4,
+    "finished": "07/18/2025"
+  },
+  {
+    "title": "No Country for Old Men",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1740778210l/23515727._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728009446",
+    "author": "Cormac McCarthy",
+    "authorLink": "https://www.goodreads.com/author/show/4178.Cormac_McCarthy",
+    "rating": 5,
+    "finished": "07/10/2025"
+  },
+  {
+    "title": "On Earth We're Briefly Gorgeous",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615580168l/41880609._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728319642",
+    "author": "Ocean Vuong",
+    "authorLink": "https://www.goodreads.com/author/show/4456871.Ocean_Vuong",
+    "rating": 4,
+    "finished": "07/10/2025"
+  },
+  {
+    "title": "Dirk Gently's Holistic Detective Agency",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626126881l/58151321._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728090431",
+    "author": "Douglas Adams",
+    "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
+    "rating": 4,
+    "finished": "07/06/2025"
+  },
+  {
+    "title": "Infinite Jest",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415152661l/544063._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727999886",
+    "author": "David Foster\n              Wallace",
+    "authorLink": "https://www.goodreads.com/author/show/4339.David_Foster_Wallace",
+    "rating": 5,
+    "finished": "06/16/2025"
+  },
+  {
+    "title": "The Turn of the Screw",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746639240l/10882679._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728000351",
+    "author": "Henry James",
+    "authorLink": "https://www.goodreads.com/author/show/159.Henry_James",
+    "rating": 3,
+    "finished": "01/2025"
+  },
+  {
+    "title": "Dune Messiah",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727990279",
+    "author": "Frank Herbert",
+    "authorLink": "https://www.goodreads.com/author/show/58.Frank_Herbert",
+    "rating": 4,
+    "finished": "01/2025"
+  },
+  {
+    "title": "The Road",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600667691l/350540._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727989042",
+    "author": "Cormac McCarthy",
+    "authorLink": "https://www.goodreads.com/author/show/4178.Cormac_McCarthy",
+    "rating": 4,
+    "finished": "12/2024"
+  },
+  {
+    "title": "Life, the Universe and Everything",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731228l/55014944._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728001457",
+    "author": "Douglas Adams",
+    "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
+    "rating": 4,
+    "finished": "11/2024"
+  },
+  {
+    "title": "The Restaurant at the End of the Universe",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731269l/55014882._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728001372",
+    "author": "Douglas Adams",
+    "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
+    "rating": 4,
+    "finished": "11/2024"
+  },
+  {
+    "title": "Mostly Harmless",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731248l/55015075._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728001825",
+    "author": "Douglas Adams",
+    "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
+    "rating": 4,
+    "finished": "11/2024"
+  },
+  {
+    "title": "So Long, and Thanks for All the Fish",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731182l/55015029._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728001518",
+    "author": "Douglas Adams",
+    "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
+    "rating": 4,
+    "finished": "11/2024"
+  },
+  {
+    "title": "The Hitchhiker's Guide to the Galaxy",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590830485l/53654093._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728001077",
+    "author": "Douglas Adams",
+    "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
+    "rating": 5,
+    "finished": "11/2024"
+  },
+  {
+    "title": "The Red Badge of Courage: A Novel of the Civil War",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660490206l/61964870._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728002388",
+    "author": "Stephen Crane",
+    "authorLink": "https://www.goodreads.com/author/show/19879.Stephen_Crane",
+    "rating": 4,
+    "finished": "10/2024"
+  },
+  {
+    "title": "The Joke",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1720883091l/397281._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727995303",
+    "author": "Milan Kundera",
+    "authorLink": "https://www.goodreads.com/author/show/6343.Milan_Kundera",
+    "rating": 4,
+    "finished": "08/2024"
+  },
+  {
+    "title": "The Metamorphosis",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395614944l/17986414._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727996192",
+    "author": "Franz Kafka",
+    "authorLink": "https://www.goodreads.com/author/show/5223.Franz_Kafka",
+    "rating": 4,
+    "finished": "07/2024"
+  },
+  {
+    "title": "Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735428393l/59820274._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727989662",
+    "author": "Hunter S. Thompson",
+    "authorLink": "https://www.goodreads.com/author/show/5237.Hunter_S_Thompson",
+    "rating": 3,
+    "finished": "06/2024"
+  },
+  {
+    "title": "To the Lighthouse",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681571588l/123503431._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727996667",
+    "author": "Virginia Woolf",
+    "authorLink": "https://www.goodreads.com/author/show/6765.Virginia_Woolf",
+    "rating": 3,
+    "finished": "06/2024"
+  },
+  {
+    "title": "Einstein’s Dreams",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386925066l/14376._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728002786",
+    "author": "Alan Lightman",
+    "authorLink": "https://www.goodreads.com/author/show/8933.Alan_Lightman",
+    "rating": 2,
+    "finished": "05/2024"
+  },
+  {
+    "title": "Notes from Underground",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657562670l/49455._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728003178",
+    "author": "Fyodor\n              Dostoevsky",
+    "authorLink": "https://www.goodreads.com/author/show/3137322.Fyodor_Dostoevsky",
+    "rating": 4,
+    "finished": "05/2024"
+  },
+  {
+    "title": "The Marx-Engels Reader",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440637767l/52184._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728005757",
+    "author": "Karl Marx",
+    "authorLink": "https://www.goodreads.com/author/show/7084.Karl_Marx",
+    "rating": 4,
+    "finished": "04/2024"
+  },
+  {
+    "title": "Into the Wild",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650755924l/60869516._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728003661",
+    "author": "Jon Krakauer",
+    "authorLink": "https://www.goodreads.com/author/show/1235.Jon_Krakauer",
+    "rating": 4,
+    "finished": "01/2024"
+  },
+  {
+    "title": "Player Piano",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598907389l/55196549._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728004575",
+    "author": "Kurt Vonnegut\n              Jr.",
+    "authorLink": "https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_",
+    "rating": 4,
+    "finished": "12/2023"
+  },
+  {
+    "title": "Cat's Cradle",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1339987922l/11828537._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728004178",
+    "author": "Kurt Vonnegut\n              Jr.",
+    "authorLink": "https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_",
+    "rating": 4,
+    "finished": "12/2023"
+  },
+  {
+    "title": "Republic",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580978211l/70551._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728102156",
+    "author": "Plato",
+    "authorLink": "https://www.goodreads.com/author/show/879.Plato",
+    "rating": 4,
+    "finished": "09/2023"
+  },
+  {
+    "title": "As I Lay Dying",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1757102388l/77013._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727996853",
+    "author": "William Faulkner",
+    "authorLink": "https://www.goodreads.com/author/show/3535.William_Faulkner",
+    "rating": 4,
+    "finished": "08/2023"
+  },
+  {
+    "title": "The Book of Laughter and Forgetting",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614905132l/240976._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727995188",
+    "author": "Milan Kundera",
+    "authorLink": "https://www.goodreads.com/author/show/6343.Milan_Kundera",
+    "rating": 5,
+    "finished": "08/2023"
+  },
+  {
+    "title": "Dune",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460494305l/29889255._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727989289",
+    "author": "Frank Herbert",
+    "authorLink": "https://www.goodreads.com/author/show/58.Frank_Herbert",
+    "rating": 4,
+    "finished": "07/2023"
+  },
+  {
+    "title": "Immortality",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388507539l/28634._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727995231",
+    "author": "Milan Kundera",
+    "authorLink": "https://www.goodreads.com/author/show/6343.Milan_Kundera",
+    "rating": 5,
+    "finished": "06/2023"
+  },
+  {
+    "title": "Catch-22",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463157317l/168668._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727989366",
+    "author": "Joseph Heller",
+    "authorLink": "https://www.goodreads.com/author/show/3167.Joseph_Heller",
+    "rating": 4,
+    "finished": "05/2023"
+  },
+  {
+    "title": "The State and Revolution",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358889486l/179612._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728006232",
+    "author": "Vladimir Lenin",
+    "authorLink": "https://www.goodreads.com/author/show/104630.Vladimir_Lenin",
+    "rating": 4,
+    "finished": "05/2023"
+  },
+  {
+    "title": "Slaughterhouse-Five",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645831073l/8123395._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727991058",
+    "author": "Kurt Vonnegut\n              Jr.",
+    "authorLink": "https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_",
+    "rating": 4,
+    "finished": "04/2023"
+  },
+  {
+    "title": "A Clockwork Orange",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549260060l/41817486._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727989413",
+    "author": "Anthony Burgess",
+    "authorLink": "https://www.goodreads.com/author/show/5735.Anthony_Burgess",
+    "rating": 4,
+    "finished": "03/2023"
+  },
+  {
+    "title": "Do Androids Dream of Electric Sheep?",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753307553l/57460539._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727990017",
+    "author": "Philip K. Dick",
+    "authorLink": "https://www.goodreads.com/author/show/4764.Philip_K_Dick",
+    "rating": 4,
+    "finished": "11/2022"
+  },
+  {
+    "title": "The Plague",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481459910l/18757378._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727999181",
+    "author": "Albert Camus",
+    "authorLink": "https://www.goodreads.com/author/show/957894.Albert_Camus",
+    "rating": 3,
+    "finished": "11/2022/"
+  },
+  {
+    "title": "The Myth of Sisyphus",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1526931180l/39947376._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727997507",
+    "author": "Albert Camus",
+    "authorLink": "https://www.goodreads.com/author/show/957894.Albert_Camus",
+    "rating": 4,
+    "finished": "10/2022"
+  },
+  {
+    "title": "The Man in the High Castle",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388378388l/20351202._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728004986",
+    "author": "Philip K. Dick",
+    "authorLink": "https://www.goodreads.com/author/show/4764.Philip_K_Dick",
+    "rating": 3,
+    "finished": "09/2022"
+  },
+  {
+    "title": "Frankenstein (1831 Edition): 200th Anniversary Collection",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544940833l/43245118._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728095474",
+    "author": "Mary\n              Wollstonecraft Shelley",
+    "authorLink": "https://www.goodreads.com/author/show/11139.Mary_Wollstonecraft_Shelley",
+    "rating": 4,
+    "finished": "03/2022"
+  },
+  {
+    "title": "The Communist Manifesto",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355995247l/8805658._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728005657",
+    "author": "Karl Marx",
+    "authorLink": "https://www.goodreads.com/author/show/7084.Karl_Marx",
+    "rating": 5,
+    "finished": "01/2022"
+  },
+  {
+    "title": "The Trial",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415204139l/17692._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727989852",
+    "author": "Franz Kafka",
+    "authorLink": "https://www.goodreads.com/author/show/5223.Franz_Kafka",
+    "rating": 3,
+    "finished": "01/2022"
+  },
+  {
+    "title": "The Unbearable Lightness of Being",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1265401884l/9717._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727995127",
+    "author": "Milan Kundera",
+    "authorLink": "https://www.goodreads.com/author/show/6343.Milan_Kundera",
+    "rating": 5,
+    "finished": "06/2021"
+  },
+  {
+    "title": "The Fall",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738704293l/11991._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727997391",
+    "author": "Albert Camus",
+    "authorLink": "https://www.goodreads.com/author/show/957894.Albert_Camus",
+    "rating": 3,
+    "finished": "02/2021"
+  },
+  {
+    "title": "The Stranger",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738704267l/49552._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727987289",
+    "author": "Albert Camus",
+    "authorLink": "https://www.goodreads.com/author/show/957894.Albert_Camus",
+    "rating": 5,
+    "finished": "07/2019"
+  },
+  {
+    "title": "Lord of the Flies",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529175026l/40542121._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727987616",
+    "author": "William Golding",
+    "authorLink": "https://www.goodreads.com/author/show/306.William_Golding",
+    "rating": 3,
+    "finished": "04/2019"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612238791l/56916837._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727986397",
+    "author": "Harper Lee",
+    "authorLink": "https://www.goodreads.com/author/show/1825.Harper_Lee",
+    "rating": 2,
+    "finished": "03/2019"
+  },
+  {
+    "title": "Of Mice and Men",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555494938l/45159584._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727988453",
+    "author": "John Steinbeck",
+    "authorLink": "https://www.goodreads.com/author/show/585.John_Steinbeck",
+    "rating": 4,
+    "finished": "09/2018"
+  },
+  {
+    "title": "Animal Farm",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727986933",
+    "author": "George Orwell",
+    "authorLink": "https://www.goodreads.com/author/show/3706.George_Orwell",
+    "rating": 4,
+    "finished": "02/2018"
+  },
+  {
+    "title": "The Great Gatsby",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650033243l/41733839._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727986303",
+    "author": "F. Scott\n              Fitzgerald",
+    "authorLink": "https://www.goodreads.com/author/show/3190.F_Scott_Fitzgerald",
+    "rating": 4,
+    "finished": "11/2017"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398034300l/5107._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727987527",
+    "author": "J.D. Salinger",
+    "authorLink": "https://www.goodreads.com/author/show/819789.J_D_Salinger",
+    "rating": 4,
+    "finished": "10/2017"
+  },
+  {
+    "title": "The Giver",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342493368l/3636._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727992536",
+    "author": "Lois Lowry",
+    "authorLink": "https://www.goodreads.com/author/show/2493.Lois_Lowry",
+    "rating": 2,
+    "finished": "09/2017"
+  },
+  {
+    "title": "A Confederacy of Dunces",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562554946l/310612._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728007787",
+    "author": "John Kennedy\n              Toole",
+    "authorLink": "https://www.goodreads.com/author/show/3049.John_Kennedy_Toole",
+    "rating": 5,
+    "finished": "04/2017"
+  },
+  {
+    "title": "The Outsiders",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689626520l/192566704._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7727991593",
+    "author": "S.E. Hinton",
+    "authorLink": "https://www.goodreads.com/author/show/762707.S_E_Hinton",
+    "rating": 2,
+    "finished": "02/2017"
+  },
+  {
+    "title": "The Adventures of Captain Underpants",
+    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348215410l/207266._SY130_.jpg",
+    "review": "https://www.goodreads.com/review/show/7728109568",
+    "author": "Dav Pilkey",
+    "authorLink": "https://www.goodreads.com/author/show/33280.Dav_Pilkey",
+    "rating": 5,
+    "finished": "10/2009"
+  }
+]
