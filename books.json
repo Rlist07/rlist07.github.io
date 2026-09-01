@@ -1,7 +1,7 @@
 [
   {
     "title": "A Confession",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328864608l/876095._SY130_.jpg",
+    "cover": "assets/covers/a-confession.webp",
     "review": "https://www.goodreads.com/review/show/8537159860",
     "author": "Leo Tolstoy",
     "authorLink": "https://www.goodreads.com/author/show/128382.Leo_Tolstoy",
@@ -10,7 +10,7 @@
   },
   {
     "title": "The Postman Always Rings Twice",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1330271399l/591352._SY130_.jpg",
+    "cover": "assets/covers/the-postman-always-rings-twice.webp",
     "review": "https://www.goodreads.com/review/show/8337359936",
     "author": "James M. Cain",
     "authorLink": "https://www.goodreads.com/author/show/14473.James_M_Cain",
@@ -19,7 +19,7 @@
   },
   {
     "title": "The Sun Also Rises",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626114574l/57933315._SY130_.jpg",
+    "cover": "assets/covers/the-sun-also-rises.webp",
     "review": "https://www.goodreads.com/review/show/8256342782",
     "author": "Ernest Hemingway",
     "authorLink": "https://www.goodreads.com/author/show/1455.Ernest_Hemingway",
@@ -28,7 +28,7 @@
   },
   {
     "title": "A Gentle Creature",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1431713499l/6379901._SY130_.jpg",
+    "cover": "assets/covers/a-gentle-creature.webp",
     "review": "https://www.goodreads.com/review/show/8459622259",
     "author": "Fyodor Dostoevsky",
     "authorLink": "https://www.goodreads.com/author/show/3137322.Fyodor_Dostoevsky",
@@ -37,7 +37,7 @@
   },
   {
     "title": "Wuthering Heights",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1478641029l/32929156._SY130_.jpg",
+    "cover": "assets/covers/wuthering-heights.webp",
     "review": "https://www.goodreads.com/review/show/8037394516",
     "author": "Emily Brontë",
     "authorLink": "https://www.goodreads.com/author/show/4191.Emily_Bront_",
@@ -46,7 +46,7 @@
   },
   {
     "title": "Bread Givers",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1676307444l/61965078._SY130_.jpg",
+    "cover": "assets/covers/bread-givers.webp",
     "review": "https://www.goodreads.com/review/show/8337362903",
     "author": "Anzia Yezierska",
     "authorLink": "https://www.goodreads.com/author/show/2494.Anzia_Yezierska",
@@ -55,7 +55,7 @@
   },
   {
     "title": "My Ántonia",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1309202839l/157975._SY130_.jpg",
+    "cover": "assets/covers/my-ntonia.webp",
     "review": "https://www.goodreads.com/review/show/8337362191",
     "author": "Willa Cather",
     "authorLink": "https://www.goodreads.com/author/show/881203.Willa_Cather",
@@ -64,7 +64,7 @@
   },
   {
     "title": "Cane",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1708109320l/9814533._SY130_.jpg",
+    "cover": "assets/covers/cane.webp",
     "review": "https://www.goodreads.com/review/show/8337360622",
     "author": "Jean Toomer",
     "authorLink": "https://www.goodreads.com/author/show/25096.Jean_Toomer",
@@ -73,7 +73,7 @@
   },
   {
     "title": "The Bell Jar",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1668645154l/56616095._SY130_.jpg",
+    "cover": "assets/covers/the-bell-jar.webp",
     "review": "https://www.goodreads.com/review/show/8255596662",
     "author": "Sylvia Plath",
     "authorLink": "https://www.goodreads.com/author/show/4379.Sylvia_Plath",
@@ -82,7 +82,7 @@
   },
   {
     "title": "Notes From a Dead House",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657555680l/25852752._SY130_.jpg",
+    "cover": "assets/covers/notes-from-a-dead-house.webp",
     "review": "https://www.goodreads.com/review/show/8310344322",
     "author": "Fyodor Dostoevsky",
     "authorLink": "https://www.goodreads.com/author/show/3137322.Fyodor_Dostoevsky",
@@ -91,7 +91,7 @@
   },
   {
     "title": "The Sebastopol Sketches",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1441248297l/50269._SY130_.jpg",
+    "cover": "assets/covers/the-sebastopol-sketches.webp",
     "review": "https://www.goodreads.com/review/show/8307561874",
     "author": "Leo Tolstoy",
     "authorLink": "https://www.goodreads.com/author/show/128382.Leo_Tolstoy",
@@ -100,7 +100,7 @@
   },
   {
     "title": "Pride and Prejudice",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1184825807l/1532798._SY130_.jpg",
+    "cover": "assets/covers/pride-and-prejudice.webp",
     "review": "https://www.goodreads.com/review/show/8230105929",
     "author": "Jane Austen",
     "authorLink": "https://www.goodreads.com/author/show/1265.Jane_Austen",
@@ -109,7 +109,7 @@
   },
   {
     "title": "The Brothers Karamazov",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624828008l/56269008._SY130_.jpg",
+    "cover": "assets/covers/the-brothers-karamazov.webp",
     "review": "https://www.goodreads.com/review/show/7796010542",
     "author": "Fyodor Dostoevsky",
     "authorLink": "https://www.goodreads.com/author/show/3137322.Fyodor_Dostoevsky",
@@ -118,7 +118,7 @@
   },
   {
     "title": "The Long Dark Tea-Time of the Soul",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1475435635l/862856._SY130_.jpg",
+    "cover": "assets/covers/the-long-dark-tea-time-of-the-soul.webp",
     "review": "https://www.goodreads.com/review/show/7822600408",
     "author": "Douglas Adams",
     "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
@@ -127,7 +127,7 @@
   },
   {
     "title": "The Sound and the Fury",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1757102364l/10975._SY130_.jpg",
+    "cover": "assets/covers/the-sound-and-the-fury.webp",
     "review": "https://www.goodreads.com/review/show/7795996975",
     "author": "William Faulkner",
     "authorLink": "https://www.goodreads.com/author/show/3535.William_Faulkner",
@@ -136,7 +136,7 @@
   },
   {
     "title": "All the Pretty Horses",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1706386113l/469571._SY130_.jpg",
+    "cover": "assets/covers/all-the-pretty-horses.webp",
     "review": "https://www.goodreads.com/review/show/7795605282",
     "author": "Cormack McCarthy",
     "authorLink": "https://www.goodreads.com/author/show/4178.Cormac_McCarthy",
@@ -145,7 +145,7 @@
   },
   {
     "title": "East of Eden",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753949577l/28251243._SY130_.jpg",
+    "cover": "assets/covers/east-of-eden.webp",
     "review": "https://www.goodreads.com/review/show/7836298716",
     "author": "John Steinbeck",
     "authorLink": "https://www.goodreads.com/author/show/585.John_Steinbeck",
@@ -154,7 +154,7 @@
   },
   {
     "title": "Ubik",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1344672961l/12346742._SY130_.jpg",
+    "cover": "assets/covers/ubik.webp",
     "review": "https://www.goodreads.com/review/show/7836294159",
     "author": "Philip K. Dick",
     "authorLink": "https://www.goodreads.com/author/show/4764.Philip_K_Dick",
@@ -163,7 +163,7 @@
   },
   {
     "title": "American Psycho",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1436934349l/28676._SY130_.jpg",
+    "cover": "assets/covers/american-psycho.webp",
     "review": "https://www.goodreads.com/review/show/7796116089",
     "author": "Bret Easton Ellis",
     "authorLink": "https://www.goodreads.com/author/show/2751.Bret_Easton_Ellis",
@@ -172,7 +172,7 @@
   },
   {
     "title": "Bluebeard",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1516339874l/9601._SY130_.jpg",
+    "cover": "assets/covers/bluebeard.webp",
     "review": "https://www.goodreads.com/review/show/7795900776",
     "author": "Kurt Vonnegut\n              Jr.",
     "authorLink": "https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_",
@@ -181,7 +181,7 @@
   },
   {
     "title": "Blood Meridian, or, the Evening Redness in the West",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1701688704l/394535._SY130_.jpg",
+    "cover": "assets/covers/blood-meridian-or-the-evening-redness-in-the-west.webp",
     "review": "https://www.goodreads.com/review/show/7748893503",
     "author": "Cormac McCarthy",
     "authorLink": "https://www.goodreads.com/author/show/4178.Cormac_McCarthy",
@@ -190,7 +190,7 @@
   },
   {
     "title": "The Woman Destroyed",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1525378903l/141421._SY130_.jpg",
+    "cover": "assets/covers/the-woman-destroyed.webp",
     "review": "https://www.goodreads.com/review/show/7730936008",
     "author": "Simone de\n              Beauvoir",
     "authorLink": "https://www.goodreads.com/author/show/5548.Simone_de_Beauvoir",
@@ -199,7 +199,7 @@
   },
   {
     "title": "No Country for Old Men",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1740778210l/23515727._SY130_.jpg",
+    "cover": "assets/covers/no-country-for-old-men.webp",
     "review": "https://www.goodreads.com/review/show/7728009446",
     "author": "Cormac McCarthy",
     "authorLink": "https://www.goodreads.com/author/show/4178.Cormac_McCarthy",
@@ -208,7 +208,7 @@
   },
   {
     "title": "On Earth We're Briefly Gorgeous",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1615580168l/41880609._SY130_.jpg",
+    "cover": "assets/covers/on-earth-we-re-briefly-gorgeous.webp",
     "review": "https://www.goodreads.com/review/show/7728319642",
     "author": "Ocean Vuong",
     "authorLink": "https://www.goodreads.com/author/show/4456871.Ocean_Vuong",
@@ -217,7 +217,7 @@
   },
   {
     "title": "Dirk Gently's Holistic Detective Agency",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626126881l/58151321._SY130_.jpg",
+    "cover": "assets/covers/dirk-gently-s-holistic-detective-agency.webp",
     "review": "https://www.goodreads.com/review/show/7728090431",
     "author": "Douglas Adams",
     "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
@@ -226,7 +226,7 @@
   },
   {
     "title": "Infinite Jest",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415152661l/544063._SY130_.jpg",
+    "cover": "assets/covers/infinite-jest.webp",
     "review": "https://www.goodreads.com/review/show/7727999886",
     "author": "David Foster\n              Wallace",
     "authorLink": "https://www.goodreads.com/author/show/4339.David_Foster_Wallace",
@@ -235,7 +235,7 @@
   },
   {
     "title": "The Turn of the Screw",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1746639240l/10882679._SY130_.jpg",
+    "cover": "assets/covers/the-turn-of-the-screw.webp",
     "review": "https://www.goodreads.com/review/show/7728000351",
     "author": "Henry James",
     "authorLink": "https://www.goodreads.com/author/show/159.Henry_James",
@@ -244,7 +244,7 @@
   },
   {
     "title": "Dune Messiah",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1577043824l/44492285._SY130_.jpg",
+    "cover": "assets/covers/dune-messiah.webp",
     "review": "https://www.goodreads.com/review/show/7727990279",
     "author": "Frank Herbert",
     "authorLink": "https://www.goodreads.com/author/show/58.Frank_Herbert",
@@ -253,7 +253,7 @@
   },
   {
     "title": "The Road",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1600667691l/350540._SY130_.jpg",
+    "cover": "assets/covers/the-road.webp",
     "review": "https://www.goodreads.com/review/show/7727989042",
     "author": "Cormac McCarthy",
     "authorLink": "https://www.goodreads.com/author/show/4178.Cormac_McCarthy",
@@ -262,7 +262,7 @@
   },
   {
     "title": "Life, the Universe and Everything",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731228l/55014944._SY130_.jpg",
+    "cover": "assets/covers/life-the-universe-and-everything.webp",
     "review": "https://www.goodreads.com/review/show/7728001457",
     "author": "Douglas Adams",
     "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
@@ -271,7 +271,7 @@
   },
   {
     "title": "The Restaurant at the End of the Universe",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731269l/55014882._SY130_.jpg",
+    "cover": "assets/covers/the-restaurant-at-the-end-of-the-universe.webp",
     "review": "https://www.goodreads.com/review/show/7728001372",
     "author": "Douglas Adams",
     "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
@@ -280,7 +280,7 @@
   },
   {
     "title": "Mostly Harmless",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731248l/55015075._SY130_.jpg",
+    "cover": "assets/covers/mostly-harmless.webp",
     "review": "https://www.goodreads.com/review/show/7728001825",
     "author": "Douglas Adams",
     "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
@@ -289,7 +289,7 @@
   },
   {
     "title": "So Long, and Thanks for All the Fish",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1610731182l/55015029._SY130_.jpg",
+    "cover": "assets/covers/so-long-and-thanks-for-all-the-fish.webp",
     "review": "https://www.goodreads.com/review/show/7728001518",
     "author": "Douglas Adams",
     "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
@@ -298,7 +298,7 @@
   },
   {
     "title": "The Hitchhiker's Guide to the Galaxy",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590830485l/53654093._SY130_.jpg",
+    "cover": "assets/covers/the-hitchhiker-s-guide-to-the-galaxy.webp",
     "review": "https://www.goodreads.com/review/show/7728001077",
     "author": "Douglas Adams",
     "authorLink": "https://www.goodreads.com/author/show/4.Douglas_Adams",
@@ -307,7 +307,7 @@
   },
   {
     "title": "The Red Badge of Courage: A Novel of the Civil War",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660490206l/61964870._SY130_.jpg",
+    "cover": "assets/covers/the-red-badge-of-courage-a-novel-of-the-civil-war.webp",
     "review": "https://www.goodreads.com/review/show/7728002388",
     "author": "Stephen Crane",
     "authorLink": "https://www.goodreads.com/author/show/19879.Stephen_Crane",
@@ -316,7 +316,7 @@
   },
   {
     "title": "The Joke",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1720883091l/397281._SY130_.jpg",
+    "cover": "assets/covers/the-joke.webp",
     "review": "https://www.goodreads.com/review/show/7727995303",
     "author": "Milan Kundera",
     "authorLink": "https://www.goodreads.com/author/show/6343.Milan_Kundera",
@@ -325,7 +325,7 @@
   },
   {
     "title": "The Metamorphosis",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1395614944l/17986414._SY130_.jpg",
+    "cover": "assets/covers/the-metamorphosis.webp",
     "review": "https://www.goodreads.com/review/show/7727996192",
     "author": "Franz Kafka",
     "authorLink": "https://www.goodreads.com/author/show/5223.Franz_Kafka",
@@ -334,7 +334,7 @@
   },
   {
     "title": "Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1735428393l/59820274._SY130_.jpg",
+    "cover": "assets/covers/fear-and-loathing-in-las-vegas-a-savage-journey-to-the-heart.webp",
     "review": "https://www.goodreads.com/review/show/7727989662",
     "author": "Hunter S. Thompson",
     "authorLink": "https://www.goodreads.com/author/show/5237.Hunter_S_Thompson",
@@ -343,7 +343,7 @@
   },
   {
     "title": "To the Lighthouse",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1681571588l/123503431._SY130_.jpg",
+    "cover": "assets/covers/to-the-lighthouse.webp",
     "review": "https://www.goodreads.com/review/show/7727996667",
     "author": "Virginia Woolf",
     "authorLink": "https://www.goodreads.com/author/show/6765.Virginia_Woolf",
@@ -352,7 +352,7 @@
   },
   {
     "title": "Einstein’s Dreams",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1386925066l/14376._SY130_.jpg",
+    "cover": "assets/covers/einstein-s-dreams.webp",
     "review": "https://www.goodreads.com/review/show/7728002786",
     "author": "Alan Lightman",
     "authorLink": "https://www.goodreads.com/author/show/8933.Alan_Lightman",
@@ -361,7 +361,7 @@
   },
   {
     "title": "Notes from Underground",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1657562670l/49455._SY130_.jpg",
+    "cover": "assets/covers/notes-from-underground.webp",
     "review": "https://www.goodreads.com/review/show/7728003178",
     "author": "Fyodor\n              Dostoevsky",
     "authorLink": "https://www.goodreads.com/author/show/3137322.Fyodor_Dostoevsky",
@@ -370,7 +370,7 @@
   },
   {
     "title": "The Marx-Engels Reader",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1440637767l/52184._SY130_.jpg",
+    "cover": "assets/covers/the-marx-engels-reader.webp",
     "review": "https://www.goodreads.com/review/show/7728005757",
     "author": "Karl Marx",
     "authorLink": "https://www.goodreads.com/author/show/7084.Karl_Marx",
@@ -379,7 +379,7 @@
   },
   {
     "title": "Into the Wild",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650755924l/60869516._SY130_.jpg",
+    "cover": "assets/covers/into-the-wild.webp",
     "review": "https://www.goodreads.com/review/show/7728003661",
     "author": "Jon Krakauer",
     "authorLink": "https://www.goodreads.com/author/show/1235.Jon_Krakauer",
@@ -388,7 +388,7 @@
   },
   {
     "title": "Player Piano",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1598907389l/55196549._SY130_.jpg",
+    "cover": "assets/covers/player-piano.webp",
     "review": "https://www.goodreads.com/review/show/7728004575",
     "author": "Kurt Vonnegut\n              Jr.",
     "authorLink": "https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_",
@@ -397,7 +397,7 @@
   },
   {
     "title": "Cat's Cradle",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1339987922l/11828537._SY130_.jpg",
+    "cover": "assets/covers/cat-s-cradle.webp",
     "review": "https://www.goodreads.com/review/show/7728004178",
     "author": "Kurt Vonnegut\n              Jr.",
     "authorLink": "https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_",
@@ -406,7 +406,7 @@
   },
   {
     "title": "Republic",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580978211l/70551._SY130_.jpg",
+    "cover": "assets/covers/republic.webp",
     "review": "https://www.goodreads.com/review/show/7728102156",
     "author": "Plato",
     "authorLink": "https://www.goodreads.com/author/show/879.Plato",
@@ -415,7 +415,7 @@
   },
   {
     "title": "As I Lay Dying",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1757102388l/77013._SY130_.jpg",
+    "cover": "assets/covers/as-i-lay-dying.webp",
     "review": "https://www.goodreads.com/review/show/7727996853",
     "author": "William Faulkner",
     "authorLink": "https://www.goodreads.com/author/show/3535.William_Faulkner",
@@ -424,7 +424,7 @@
   },
   {
     "title": "The Book of Laughter and Forgetting",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1614905132l/240976._SY130_.jpg",
+    "cover": "assets/covers/the-book-of-laughter-and-forgetting.webp",
     "review": "https://www.goodreads.com/review/show/7727995188",
     "author": "Milan Kundera",
     "authorLink": "https://www.goodreads.com/author/show/6343.Milan_Kundera",
@@ -433,7 +433,7 @@
   },
   {
     "title": "Dune",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1460494305l/29889255._SY130_.jpg",
+    "cover": "assets/covers/dune.webp",
     "review": "https://www.goodreads.com/review/show/7727989289",
     "author": "Frank Herbert",
     "authorLink": "https://www.goodreads.com/author/show/58.Frank_Herbert",
@@ -442,7 +442,7 @@
   },
   {
     "title": "Immortality",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388507539l/28634._SY130_.jpg",
+    "cover": "assets/covers/immortality.webp",
     "review": "https://www.goodreads.com/review/show/7727995231",
     "author": "Milan Kundera",
     "authorLink": "https://www.goodreads.com/author/show/6343.Milan_Kundera",
@@ -451,7 +451,7 @@
   },
   {
     "title": "Catch-22",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1463157317l/168668._SY130_.jpg",
+    "cover": "assets/covers/catch-22.webp",
     "review": "https://www.goodreads.com/review/show/7727989366",
     "author": "Joseph Heller",
     "authorLink": "https://www.goodreads.com/author/show/3167.Joseph_Heller",
@@ -460,7 +460,7 @@
   },
   {
     "title": "The State and Revolution",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358889486l/179612._SY130_.jpg",
+    "cover": "assets/covers/the-state-and-revolution.webp",
     "review": "https://www.goodreads.com/review/show/7728006232",
     "author": "Vladimir Lenin",
     "authorLink": "https://www.goodreads.com/author/show/104630.Vladimir_Lenin",
@@ -469,7 +469,7 @@
   },
   {
     "title": "Slaughterhouse-Five",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1645831073l/8123395._SY130_.jpg",
+    "cover": "assets/covers/slaughterhouse-five.webp",
     "review": "https://www.goodreads.com/review/show/7727991058",
     "author": "Kurt Vonnegut\n              Jr.",
     "authorLink": "https://www.goodreads.com/author/show/2778055.Kurt_Vonnegut_Jr_",
@@ -478,7 +478,7 @@
   },
   {
     "title": "A Clockwork Orange",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1549260060l/41817486._SY130_.jpg",
+    "cover": "assets/covers/a-clockwork-orange.webp",
     "review": "https://www.goodreads.com/review/show/7727989413",
     "author": "Anthony Burgess",
     "authorLink": "https://www.goodreads.com/author/show/5735.Anthony_Burgess",
@@ -487,7 +487,7 @@
   },
   {
     "title": "Do Androids Dream of Electric Sheep?",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1753307553l/57460539._SY130_.jpg",
+    "cover": "assets/covers/do-androids-dream-of-electric-sheep.webp",
     "review": "https://www.goodreads.com/review/show/7727990017",
     "author": "Philip K. Dick",
     "authorLink": "https://www.goodreads.com/author/show/4764.Philip_K_Dick",
@@ -496,16 +496,16 @@
   },
   {
     "title": "The Plague",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481459910l/18757378._SY130_.jpg",
+    "cover": "assets/covers/the-plague.webp",
     "review": "https://www.goodreads.com/review/show/7727999181",
     "author": "Albert Camus",
     "authorLink": "https://www.goodreads.com/author/show/957894.Albert_Camus",
     "rating": 3,
-    "finished": "11/2022/"
+    "finished": "11/2022"
   },
   {
     "title": "The Myth of Sisyphus",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1526931180l/39947376._SY130_.jpg",
+    "cover": "assets/covers/the-myth-of-sisyphus.webp",
     "review": "https://www.goodreads.com/review/show/7727997507",
     "author": "Albert Camus",
     "authorLink": "https://www.goodreads.com/author/show/957894.Albert_Camus",
@@ -514,7 +514,7 @@
   },
   {
     "title": "The Man in the High Castle",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388378388l/20351202._SY130_.jpg",
+    "cover": "assets/covers/the-man-in-the-high-castle.webp",
     "review": "https://www.goodreads.com/review/show/7728004986",
     "author": "Philip K. Dick",
     "authorLink": "https://www.goodreads.com/author/show/4764.Philip_K_Dick",
@@ -523,7 +523,7 @@
   },
   {
     "title": "Frankenstein (1831 Edition): 200th Anniversary Collection",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544940833l/43245118._SY130_.jpg",
+    "cover": "assets/covers/frankenstein-1831-edition-200th-anniversary-collection.webp",
     "review": "https://www.goodreads.com/review/show/7728095474",
     "author": "Mary\n              Wollstonecraft Shelley",
     "authorLink": "https://www.goodreads.com/author/show/11139.Mary_Wollstonecraft_Shelley",
@@ -532,7 +532,7 @@
   },
   {
     "title": "The Communist Manifesto",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1355995247l/8805658._SY130_.jpg",
+    "cover": "assets/covers/the-communist-manifesto.webp",
     "review": "https://www.goodreads.com/review/show/7728005657",
     "author": "Karl Marx",
     "authorLink": "https://www.goodreads.com/author/show/7084.Karl_Marx",
@@ -541,7 +541,7 @@
   },
   {
     "title": "The Trial",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415204139l/17692._SY130_.jpg",
+    "cover": "assets/covers/the-trial.webp",
     "review": "https://www.goodreads.com/review/show/7727989852",
     "author": "Franz Kafka",
     "authorLink": "https://www.goodreads.com/author/show/5223.Franz_Kafka",
@@ -550,7 +550,7 @@
   },
   {
     "title": "The Unbearable Lightness of Being",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1265401884l/9717._SY130_.jpg",
+    "cover": "assets/covers/the-unbearable-lightness-of-being.webp",
     "review": "https://www.goodreads.com/review/show/7727995127",
     "author": "Milan Kundera",
     "authorLink": "https://www.goodreads.com/author/show/6343.Milan_Kundera",
@@ -559,7 +559,7 @@
   },
   {
     "title": "The Fall",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738704293l/11991._SY130_.jpg",
+    "cover": "assets/covers/the-fall.webp",
     "review": "https://www.goodreads.com/review/show/7727997391",
     "author": "Albert Camus",
     "authorLink": "https://www.goodreads.com/author/show/957894.Albert_Camus",
@@ -568,7 +568,7 @@
   },
   {
     "title": "The Stranger",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1738704267l/49552._SY130_.jpg",
+    "cover": "assets/covers/the-stranger.webp",
     "review": "https://www.goodreads.com/review/show/7727987289",
     "author": "Albert Camus",
     "authorLink": "https://www.goodreads.com/author/show/957894.Albert_Camus",
@@ -577,7 +577,7 @@
   },
   {
     "title": "Lord of the Flies",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529175026l/40542121._SY130_.jpg",
+    "cover": "assets/covers/lord-of-the-flies.webp",
     "review": "https://www.goodreads.com/review/show/7727987616",
     "author": "William Golding",
     "authorLink": "https://www.goodreads.com/author/show/306.William_Golding",
@@ -586,7 +586,7 @@
   },
   {
     "title": "To Kill a Mockingbird",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1612238791l/56916837._SY130_.jpg",
+    "cover": "assets/covers/to-kill-a-mockingbird.webp",
     "review": "https://www.goodreads.com/review/show/7727986397",
     "author": "Harper Lee",
     "authorLink": "https://www.goodreads.com/author/show/1825.Harper_Lee",
@@ -595,7 +595,7 @@
   },
   {
     "title": "Of Mice and Men",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555494938l/45159584._SY130_.jpg",
+    "cover": "assets/covers/of-mice-and-men.webp",
     "review": "https://www.goodreads.com/review/show/7727988453",
     "author": "John Steinbeck",
     "authorLink": "https://www.goodreads.com/author/show/585.John_Steinbeck",
@@ -604,7 +604,7 @@
   },
   {
     "title": "Animal Farm",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1325861570l/170448._SY130_.jpg",
+    "cover": "assets/covers/animal-farm.webp",
     "review": "https://www.goodreads.com/review/show/7727986933",
     "author": "George Orwell",
     "authorLink": "https://www.goodreads.com/author/show/3706.George_Orwell",
@@ -613,7 +613,7 @@
   },
   {
     "title": "The Great Gatsby",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1650033243l/41733839._SY130_.jpg",
+    "cover": "assets/covers/the-great-gatsby.webp",
     "review": "https://www.goodreads.com/review/show/7727986303",
     "author": "F. Scott\n              Fitzgerald",
     "authorLink": "https://www.goodreads.com/author/show/3190.F_Scott_Fitzgerald",
@@ -622,7 +622,7 @@
   },
   {
     "title": "The Catcher in the Rye",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1398034300l/5107._SY130_.jpg",
+    "cover": "assets/covers/the-catcher-in-the-rye.webp",
     "review": "https://www.goodreads.com/review/show/7727987527",
     "author": "J.D. Salinger",
     "authorLink": "https://www.goodreads.com/author/show/819789.J_D_Salinger",
@@ -631,7 +631,7 @@
   },
   {
     "title": "The Giver",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1342493368l/3636._SY130_.jpg",
+    "cover": "assets/covers/the-giver.webp",
     "review": "https://www.goodreads.com/review/show/7727992536",
     "author": "Lois Lowry",
     "authorLink": "https://www.goodreads.com/author/show/2493.Lois_Lowry",
@@ -640,7 +640,7 @@
   },
   {
     "title": "A Confederacy of Dunces",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1562554946l/310612._SY130_.jpg",
+    "cover": "assets/covers/a-confederacy-of-dunces.webp",
     "review": "https://www.goodreads.com/review/show/7728007787",
     "author": "John Kennedy\n              Toole",
     "authorLink": "https://www.goodreads.com/author/show/3049.John_Kennedy_Toole",
@@ -649,7 +649,7 @@
   },
   {
     "title": "The Outsiders",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1689626520l/192566704._SY130_.jpg",
+    "cover": "assets/covers/the-outsiders.webp",
     "review": "https://www.goodreads.com/review/show/7727991593",
     "author": "S.E. Hinton",
     "authorLink": "https://www.goodreads.com/author/show/762707.S_E_Hinton",
@@ -658,11 +658,56 @@
   },
   {
     "title": "The Adventures of Captain Underpants",
-    "cover": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348215410l/207266._SY130_.jpg",
+    "cover": "assets/covers/the-adventures-of-captain-underpants.webp",
     "review": "https://www.goodreads.com/review/show/7728109568",
     "author": "Dav Pilkey",
     "authorLink": "https://www.goodreads.com/author/show/33280.Dav_Pilkey",
     "rating": 5,
     "finished": "10/2009"
+  },
+  {
+    "title": "Hunger",
+    "cover": "assets/covers/hunger.webp",
+    "review": "https://www.goodreads.com/review/show/8269325536",
+    "author": "Knut Hamsun",
+    "authorLink": "https://www.goodreads.com/author/show/18317.Knut_Hamsun",
+    "rating": 3,
+    "finished": "05/03/2026"
+  },
+  {
+    "title": "Tenth of December",
+    "cover": "assets/covers/tenth-of-december.webp",
+    "review": "https://www.goodreads.com/review/show/8639874362",
+    "author": "George Saunders",
+    "authorLink": "https://www.goodreads.com/author/show/8885.George_Saunders",
+    "rating": 5,
+    "finished": "06/06/2026"
+  },
+  {
+    "title": "This Is Water",
+    "cover": "assets/covers/this-is-water-some-thoughts-delivered-on-a-significant-occas.webp",
+    "review": "https://www.goodreads.com/review/show/7842286767",
+    "author": "David Foster Wallace",
+    "authorLink": "https://www.goodreads.com/author/show/4339.David_Foster_Wallace",
+    "rating": 5,
+    "finished": "06/07/2026"
+  },
+  {
+    "title": "War and Peace",
+    "cover": "assets/covers/war-and-peace.webp",
+    "review": "https://www.goodreads.com/review/show/8300258828",
+    "author": "Leo Tolstoy",
+    "authorLink": "https://www.goodreads.com/author/show/128382.Leo_Tolstoy",
+    "rating": 4,
+    "finished": "07/21/2026"
+  },
+  {
+    "title": "Walden",
+    "cover": "assets/covers/walden.webp",
+    "review": "https://www.goodreads.com/review/show/8230102667",
+    "author": "Henry David Thoreau",
+    "authorLink": "https://www.goodreads.com/author/show/10264.Henry_David_Thoreau",
+    "rating": 4,
+    "finished": "08/19/2026"
   }
 ]

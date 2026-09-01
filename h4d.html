@@ -1,68 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-      <!-- Google tag (gtag.js) -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Roland List - 3D models from a single image</title>
+  <meta name="description" content="A Hacking for Defense project for US Central Command: generating 3D meshes from one photograph.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="Roland List - 3D models from a single image">
+  <meta property="og:description" content="A Hacking for Defense project for US Central Command: generating 3D meshes from one photograph.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rlist07.github.io/h4d.html">
+  <!-- css:start --><style>/*! tailwindcss v4.1.13 | MIT License | https://tailwindcss.com */
+@layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b)))){*,:before,:after,::backdrop{--tw-border-style:solid;--tw-leading:initial;--tw-font-weight:initial;--tw-tracking:initial;--tw-ordinal:initial;--tw-slashed-zero:initial;--tw-numeric-figure:initial;--tw-numeric-spacing:initial;--tw-numeric-fraction:initial;--tw-content:""}}}@layer theme{:root,:host{--spacing:.25rem;--font-weight-semibold:600;--tracking-wider:.05em;--default-mono-font-family:var(--font-mono);--color-paper:#faf7ef;--color-ink:#191714;--color-muted:#625c53;--color-link:#24501f;--color-rule:#ded6c0;--font-serif:Georgia,"Times New Roman",Times,serif;--font-mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;--text-xs:.8125rem;--text-xs--line-height:1.45;--text-sm:.9375rem;--text-sm--line-height:1.55;--text-base:1.0625rem;--text-base--line-height:1.6;--text-lg:1.25rem;--text-lg--line-height:1.3}}@layer base{*,:after,:before,::backdrop{box-sizing:border-box;border:0 solid;margin:0;padding:0}::file-selector-button{box-sizing:border-box;border:0 solid;margin:0;padding:0}html,:host{-webkit-text-size-adjust:100%;tab-size:4;line-height:1.5;font-family:var(--default-font-family,ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings,normal);font-variation-settings:var(--default-font-variation-settings,normal);-webkit-tap-highlight-color:transparent}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:var(--default-mono-font-family,ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace);font-feature-settings:var(--default-mono-font-feature-settings,normal);font-variation-settings:var(--default-mono-font-variation-settings,normal);font-size:1em}small{font-size:80%}sub,sup{vertical-align:baseline;font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}:-moz-focusring{outline:auto}progress{vertical-align:baseline}summary{display:list-item}ol,ul,menu{list-style:none}img,svg,video,canvas,audio,iframe,embed,object{vertical-align:middle;display:block}img,video{max-width:100%;height:auto}button,input,select,optgroup,textarea{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}::file-selector-button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}:where(select:is([multiple],[size])) optgroup{font-weight:bolder}:where(select:is([multiple],[size])) optgroup option{padding-inline-start:20px}::file-selector-button{margin-inline-end:4px}::placeholder{opacity:1}@supports (not ((-webkit-appearance:-apple-pay-button))) or (contain-intrinsic-size:1px){::placeholder{color:currentColor}@supports (color:color-mix(in lab, red, red)){::placeholder{color:color-mix(in oklab,currentcolor 50%,transparent)}}}textarea{resize:vertical}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-date-and-time-value{min-height:1lh;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-datetime-edit{padding-block:0}::-webkit-datetime-edit-year-field{padding-block:0}::-webkit-datetime-edit-month-field{padding-block:0}::-webkit-datetime-edit-day-field{padding-block:0}::-webkit-datetime-edit-hour-field{padding-block:0}::-webkit-datetime-edit-minute-field{padding-block:0}::-webkit-datetime-edit-second-field{padding-block:0}::-webkit-datetime-edit-millisecond-field{padding-block:0}::-webkit-datetime-edit-meridiem-field{padding-block:0}::-webkit-calendar-picker-indicator{line-height:1}:-moz-ui-invalid{box-shadow:none}button,input:where([type=button],[type=reset],[type=submit]){appearance:button}::file-selector-button{appearance:button}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[hidden]:where(:not([hidden=until-found])){display:none!important}html{-webkit-text-size-adjust:100%}body{background:var(--color-paper);color:var(--color-ink);font-family:var(--font-serif);font-size:var(--text-base);line-height:1.6}a{color:var(--color-link);text-underline-offset:.14em;-webkit-text-decoration:underline #24501f59;text-decoration:underline #24501f59;text-decoration-thickness:1px}@supports (color:color-mix(in lab, red, red)){a{-webkit-text-decoration-color:color-mix(in oklab,var(--color-link)35%,transparent);-webkit-text-decoration-color:color-mix(in oklab,var(--color-link)35%,transparent);text-decoration-color:color-mix(in oklab,var(--color-link)35%,transparent)}}a:hover{text-decoration-color:currentColor}a:focus-visible{outline:2px solid var(--color-link);outline-offset:2px}a[target=_blank]:after{content:"⁠↗";margin-left:.12em;font-size:.85em;text-decoration:none;display:inline}::selection{background:#e8e2ce}}@layer components{.flow>*+*{margin-top:1.5rem}.flow>:is(h1,h2,h3)+*{margin-top:.5rem}.flow>:first-child{margin-top:0}.flow>h2{border-top:1px solid var(--color-rule);margin-top:4rem;padding-top:1.5rem}.flow>h2:first-child{border-top:0;margin-top:0;padding-top:0}.link-secondary{color:var(--color-muted);text-decoration-color:#625c5366}@supports (color:color-mix(in lab, red, red)){.link-secondary{-webkit-text-decoration-color:color-mix(in oklab,var(--color-muted)40%,transparent);-webkit-text-decoration-color:color-mix(in oklab,var(--color-muted)40%,transparent);text-decoration-color:color-mix(in oklab,var(--color-muted)40%,transparent)}}.link-secondary:hover{color:var(--color-ink);text-decoration-color:currentColor}[aria-current=page],[aria-current=location]{color:var(--color-ink);text-decoration:none}[aria-current=page]:before{content:"→";color:var(--color-link);margin-right:.375rem}@media (min-width:48rem){[aria-current=page]{position:relative}[aria-current=page]:before{content:none}[aria-current=page]:after{content:"";background:var(--color-ink);width:2rem;height:1px;position:absolute;top:50%;right:-2rem}}}@layer utilities{.sr-only{clip-path:inset(50%);white-space:nowrap;border-width:0;width:1px;height:1px;margin:-1px;padding:0;position:absolute;overflow:hidden}.fixed{position:fixed}.relative{position:relative}.isolate{isolation:isolate}.order-1{order:1}.order-2{order:2}.order-3{order:3}.col-span-2{grid-column:span 2/span 2}.row-span-2{grid-row:span 2/span 2}.mx-auto{margin-inline:auto}.mt-0{margin-top:calc(var(--spacing)*0)}.mt-0\.5{margin-top:calc(var(--spacing)*.5)}.mt-1{margin-top:calc(var(--spacing)*1)}.mt-4{margin-top:calc(var(--spacing)*4)}.mt-8{margin-top:calc(var(--spacing)*8)}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.inline{display:inline}.table{display:table}.aspect-\[2\/3\]{aspect-ratio:2/3}.aspect-\[16\/10\]{aspect-ratio:16/10}.h-\[calc\(100vh-16rem\)\]{height:calc(100vh - 16rem)}.h-full{height:100%}.max-h-\[60rem\]{max-height:60rem}.w-40{width:calc(var(--spacing)*40)}.w-\[3\.37rem\]{width:3.37rem}.w-full{width:100%}.max-w-\[20rem\]{max-width:20rem}.max-w-\[23rem\]{max-width:23rem}.max-w-\[25rem\]{max-width:25rem}.max-w-\[26rem\]{max-width:26rem}.max-w-\[28rem\]{max-width:28rem}.max-w-\[35rem\]{max-width:35rem}.max-w-\[36rem\]{max-width:36rem}.max-w-\[50rem\]{max-width:50rem}.max-w-\[51rem\]{max-width:51rem}.max-w-\[53rem\]{max-width:53rem}.max-w-\[68ch\]{max-width:68ch}.max-w-\[72ch\]{max-width:72ch}.max-w-\[80ch\]{max-width:80ch}.max-w-\[92rem\]{max-width:92rem}.max-w-\[96ch\]{max-width:96ch}.min-w-0{min-width:calc(var(--spacing)*0)}.flex-1{flex:1}.shrink-0{flex-shrink:0}.basis-full{flex-basis:100%}.grid-cols-\[1fr_auto\]{grid-template-columns:1fr auto}.grid-cols-\[3\.37rem_1fr\]{grid-template-columns:3.37rem 1fr}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-baseline{align-items:baseline}.items-center{align-items:center}.items-start{align-items:flex-start}.items-stretch{align-items:stretch}.gap-4{gap:calc(var(--spacing)*4)}.gap-x-4{column-gap:calc(var(--spacing)*4)}.gap-x-6{column-gap:calc(var(--spacing)*6)}.gap-y-1{row-gap:calc(var(--spacing)*1)}.gap-y-2{row-gap:calc(var(--spacing)*2)}.gap-y-4{row-gap:calc(var(--spacing)*4)}.overflow-hidden{overflow:hidden}.border{border-style:var(--tw-border-style);border-width:1px}.border-t{border-top-style:var(--tw-border-style);border-top-width:1px}.border-b{border-bottom-style:var(--tw-border-style);border-bottom-width:1px}.border-rule{border-color:var(--color-rule)}.bg-paper{background-color:var(--color-paper)}.object-cover{object-fit:cover}.px-\[clamp\(1\.5rem\,5vw\,5rem\)\]{padding-inline:clamp(1.5rem,5vw,5rem)}.py-3{padding-block:calc(var(--spacing)*3)}.py-4{padding-block:calc(var(--spacing)*4)}.py-5{padding-block:calc(var(--spacing)*5)}.py-8{padding-block:calc(var(--spacing)*8)}.pt-8{padding-top:calc(var(--spacing)*8)}.pb-1{padding-bottom:calc(var(--spacing)*1)}.pb-4{padding-bottom:calc(var(--spacing)*4)}.pl-3{padding-left:calc(var(--spacing)*3)}.font-mono{font-family:var(--font-mono)}.font-serif{font-family:var(--font-serif)}.text-base{font-size:var(--text-base);line-height:var(--tw-leading,var(--text-base--line-height))}.text-lg{font-size:var(--text-lg);line-height:var(--tw-leading,var(--text-lg--line-height))}.text-sm{font-size:var(--text-sm);line-height:var(--tw-leading,var(--text-sm--line-height))}.text-xs{font-size:var(--text-xs);line-height:var(--tw-leading,var(--text-xs--line-height))}.leading-none{--tw-leading:1;line-height:1}.font-semibold{--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold)}.tracking-wider{--tw-tracking:var(--tracking-wider);letter-spacing:var(--tracking-wider)}.text-ink{color:var(--color-ink)}.text-link{color:var(--color-link)}.text-muted{color:var(--color-muted)}.uppercase{text-transform:uppercase}.tabular-nums{--tw-numeric-spacing:tabular-nums;font-variant-numeric:var(--tw-ordinal,)var(--tw-slashed-zero,)var(--tw-numeric-figure,)var(--tw-numeric-spacing,)var(--tw-numeric-fraction,)}.no-underline{text-decoration-line:none}.after\:content-none:after{content:var(--tw-content);--tw-content:none;content:none}@media (hover:hover){.hover\:text-ink:hover{color:var(--color-ink)}.hover\:underline:hover{text-decoration-line:underline}}@media (min-width:40rem){.sm\:order-1{order:1}.sm\:order-2{order:2}.sm\:order-3{order:3}.sm\:col-span-1{grid-column:span 1/span 1}.sm\:col-span-2{grid-column:span 2/span 2}.sm\:row-span-1{grid-row:span 1/span 1}.sm\:mt-0{margin-top:calc(var(--spacing)*0)}.sm\:block{display:block}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.sm\:grid-cols-\[3\.37rem_1fr_9rem\]{grid-template-columns:3.37rem 1fr 9rem}.sm\:grid-cols-\[10rem_1fr_auto\]{grid-template-columns:10rem 1fr auto}.sm\:gap-x-6{column-gap:calc(var(--spacing)*6)}.sm\:text-right{text-align:right}}@media (min-width:48rem){.md\:sticky{position:sticky}.md\:top-12{top:calc(var(--spacing)*12)}.md\:mt-0{margin-top:calc(var(--spacing)*0)}.md\:mt-4{margin-top:calc(var(--spacing)*4)}.md\:mt-8{margin-top:calc(var(--spacing)*8)}.md\:mr-10{margin-right:calc(var(--spacing)*10)}.md\:block{display:block}.md\:hidden{display:none}.md\:w-44{width:calc(var(--spacing)*44)}.md\:w-auto{width:auto}.md\:basis-auto{flex-basis:auto}.md\:flex-col{flex-direction:column}.md\:flex-row{flex-direction:row}.md\:gap-x-0{column-gap:calc(var(--spacing)*0)}.md\:gap-y-2{row-gap:calc(var(--spacing)*2)}.md\:border-r{border-right-style:var(--tw-border-style);border-right-width:1px}.md\:border-b-0{border-bottom-style:var(--tw-border-style);border-bottom-width:0}.md\:py-12{padding-block:calc(var(--spacing)*12)}.md\:pr-8{padding-right:calc(var(--spacing)*8)}.md\:pb-0{padding-bottom:calc(var(--spacing)*0)}}}@property --tw-border-style{syntax:"*";inherits:false;initial-value:solid}@property --tw-leading{syntax:"*";inherits:false}@property --tw-font-weight{syntax:"*";inherits:false}@property --tw-tracking{syntax:"*";inherits:false}@property --tw-ordinal{syntax:"*";inherits:false}@property --tw-slashed-zero{syntax:"*";inherits:false}@property --tw-numeric-figure{syntax:"*";inherits:false}@property --tw-numeric-spacing{syntax:"*";inherits:false}@property --tw-numeric-fraction{syntax:"*";inherits:false}@property --tw-content{syntax:"*";inherits:false;initial-value:""}</style><!-- css:end -->
+  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FKS41M0BWK"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-FKS41M0BWK');
   </script>
-  <meta charset="UTF-8">
-  <title>Roland 3D Mapping</title>
-  <link href="output.css" rel="stylesheet">
 </head>
-<body class="w-3/4 font-serif flex bg-lightbg text-lighttext">
-  
-  <div id="sidebar" class="fixed top-0 left-0 h-screen w-56"></div>
+<body class="bg-paper text-ink font-serif">
+  <div class="mx-auto flex max-w-[92rem] flex-col items-stretch px-[clamp(1.5rem,5vw,5rem)] py-8 md:flex-row md:py-12">
 
-  <main class="ml-56 mr-0 p-8 flex-1">
-    <h2 class="text-2xl mb-4 font-bold text-lightaccent">
-      3D Image Mapping for US Central Command (CENTCOM)
-    </h2>
-    <h1 class="text-base mb-6">
-        This project was done as part of Hacking for Defense (H4D), a program that connects students with the US Department of Defense to solve real world problems.
-        <br><br>
-        My challenge was assigned by US Central Command (CENTCOM), and was to create a system that could quickly generate 3D maps of hostile or unknown environments.
-        <br><br>
-        My low-budget solution was a program that could generate 3D meshes from a single image, which could be taken from something as simple as a smartphone camera.
-        <br><br>
-        Given a photo, the program does a depth estimation to create a depth map. It uses this map to create a point cloud, which is converted into a 3D mesh.
-        <br><br>
-        The program is written in Python, a jupyter notebook can be downloaded 
-        <a href="assets/files/3d_mapping.ipynb" download class="inline-flex items-center gap-1 hover:text-lighttextaccent"> 
-            <span>here</span>  
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5m-13.5-9L12 12.75m0 0 4.5-5.25M12 12.75V3" />
-            </svg>
-        </a>.
-    </h1>
-    <div class="mt-4 flex flex-wrap sm:flex-nowrap gap-4">
-            <div class="basis-full sm:basis-0 sm:flex-1 min-w-0">
-                <img src="assets/images/dog.jpg" alt="Girl with dog depth estimation"
-                    class="max-h-75 w-auto rounded shadow object-contain">
-            </div>
-            <div class="basis-full sm:basis-0 sm:flex-1 min-w-0">
-                <img src="assets/images/depth.jpeg" alt="Girl with dog depth estimation"
-                    class="max-h-75 w-auto rounded shadow object-contain">
-            </div>
-            <div class="basis-full sm:basis-0 sm:flex-1 min-w-0">
-                <video autoplay loop muted playsinline class ="max-h-75 w-auto rounded shadow mb-4 mt-2">
-                    <source src="assets/images/h4d.webm" alt="Bevboost feed separator" type="video/webm">
-                </video>
-            </div>
-    </div>
-  </main>
+    <!-- The rail carries its own width and border here, so the column and the
+         rule are reserved at first paint and the fetched nav causes no shift. -->
+    <aside id="rail" class="w-full shrink-0 border-b border-rule pb-4
+                            md:mr-10 md:w-44 md:border-b-0 md:border-r md:pb-0 md:pr-8">
+      <!-- rail:start -->
+    <div class="md:sticky md:top-12">
+  <p class="text-lg font-semibold">
+    <a href="index.html" class="text-ink no-underline">Roland List</a>
+  </p>
 
-  <script>
-    fetch("sidebar.html")
-      .then(response => response.text())
-      .then(data => {
-        document.getElementById("sidebar").innerHTML = data;
-      });
-  </script>
+  <nav class="mt-4 flex flex-wrap gap-x-4 gap-y-2 font-mono text-xs
+              md:mt-8 md:flex-col md:gap-x-0 md:gap-y-2">
+    <a href="index.html"    class="text-muted no-underline hover:text-ink hover:underline">About</a>
+    <a href="projects.html" class="text-ink no-underline hover:text-ink hover:underline" aria-current="location">Projects</a>
+    <span class="mt-1 flex w-full basis-full flex-col gap-y-1 pl-3 md:w-auto md:basis-auto">
+      <a href="beerbelly.html" class="text-muted no-underline hover:text-ink hover:underline">Beerbelly</a>
+      <a href="bevboost.html" class="text-muted no-underline hover:text-ink hover:underline">BevBoost</a>
+      <span class="text-ink no-underline" aria-current="page">3D models</span>
+      <a href="balloons.html" class="text-muted no-underline hover:text-ink hover:underline">Balloons</a>
+      <a href="website.html" class="text-muted no-underline hover:text-ink hover:underline">This website</a>
+    </span>
+    <a href="resume.html"   class="text-muted no-underline hover:text-ink hover:underline">Resume</a>
 
+    <a href="hobbies.html" class="text-muted no-underline hover:text-ink hover:underline md:mt-4">Hobbies</a>
+
+    <a href="https://www.linkedin.com/in/roland-list/" target="_blank" rel="noopener noreferrer"
+       class="text-muted no-underline hover:text-ink hover:underline md:mt-4">LinkedIn</a>
+  </nav>
+</div>
+      <!-- rail:end -->
+    </aside>
+
+    <main class="flow mt-8 min-w-0 max-w-[68ch] flex-1 md:mt-0">
+      <h1 class="text-lg font-semibold">3D models from a single image</h1>
+      <p>
+        This project was done as part of Hacking for Defense (H4D), a program that connects
+        students with the US Department of Defense to work on real problems. My challenge came
+        from US Central Command (CENTCOM): build a system that could quickly generate 3D maps
+        of hostile or unknown environments.
+      </p>
+      <p>
+        My low-budget solution was a program that generates a 3D mesh from a single image. The
+        input can be something as simple as a smartphone photo. Given a photo, the program runs a depth
+        estimation to produce a depth map, uses that map to build a point cloud, and converts
+        the point cloud into a mesh.
+      </p>
+      <p>
+        It’s written in Python.
+        <a href="assets/files/3d_mapping.ipynb" download>Download the Jupyter notebook</a>
+        <span class="font-mono text-xs text-muted">(67 MB)</span>.
+      </p>
+
+      <div class="grid items-center gap-4 sm:grid-cols-2">
+          <img src="assets/images/dog.jpg" alt="Source photograph" width="1600" height="1200" loading="lazy" decoding="async"
+           class="block w-full">
+          <img src="assets/images/depth.jpeg" alt="Estimated depth map" width="294" height="217" loading="lazy" decoding="async"
+           class="block w-full">
+      </div>
+      <figure>
+            <video class="block w-full max-w-[35rem]" width="720" height="578"
+                   muted loop playsinline preload="none"
+                   poster="assets/images/posters/h4d-full.jpg"
+                   data-src="assets/images/h4d.mp4" data-type="video/mp4"></video>
+          </figure>
+    </main>
+
+  </div>
+
+  <script src="site.js"></script>
 </body>
 </html>

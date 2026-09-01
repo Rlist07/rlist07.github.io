@@ -1,0 +1,6 @@
+#!/bin/sh
+# Rebuild CSS and re-stamp the rail, then stage the result. Without this a nav
+# or CSS change could be committed while the pages still carry the old copy.
+set -e
+python3 "$(git rev-parse --show-toplevel)/build.py"
+git add -A -- '*.html'
