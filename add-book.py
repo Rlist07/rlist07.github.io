@@ -4,14 +4,15 @@
   python3 add-book.py \
       --title "East of Eden" \
       --author "John Steinbeck" \
-      --rating 5 \
+      --rating 4.75 \
       --finished 05/12/2026 \
       --cover "https://i.gr-assets.com/.../28251243._SY475_.jpg" \
       --review "https://www.goodreads.com/review/show/7836298716" \
       --author-link "https://www.goodreads.com/author/show/585.John_Steinbeck"
 
 --cover takes a URL or a local file path. Covers are stored at 96px wide WebP
-in assets/covers/. --finished accepts MM/DD/YYYY or MM/YYYY. Only --title,
+in assets/covers/. --rating is 0 to 5 in quarter stars, as on Goodreads.
+--finished accepts MM/DD/YYYY or MM/YYYY. Only --title,
 --author, --rating and --finished are required; the page sorts and groups by
 date on its own, so order in the file does not matter.
 """
@@ -22,11 +23,21 @@ ROOT = os.path.dirname(os.path.abspath(__file__))
 def slug(t):
     return re.sub(r'[^a-z0-9]+', '-', t.lower()).strip('-')[:60]
 
+def quarter_stars(v):
+    try:
+        n = float(v)
+    except ValueError:
+        raise argparse.ArgumentTypeError(f'not a number: {v!r}')
+    if not 0 <= n <= 5 or n * 4 % 1:
+        raise argparse.ArgumentTypeError(f'must be 0 to 5 in steps of 0.25, got {v}')
+    return int(n) if n.is_integer() else n
+
 def main():
     p = argparse.ArgumentParser()
     p.add_argument('--title', required=True)
     p.add_argument('--author', required=True)
-    p.add_argument('--rating', required=True, type=int, choices=range(0, 6))
+    p.add_argument('--rating', required=True, type=quarter_stars,
+                   help='0 to 5 in steps of 0.25')
     p.add_argument('--finished', required=True, help='MM/DD/YYYY or MM/YYYY')
     p.add_argument('--cover', help='image URL or local file')
     p.add_argument('--review', default='')
@@ -50,7 +61,7 @@ def main():
             # Goodreads serves a small default; ask for a larger source so the
             # 96px target is a downscale. curl, because python's SSL trust
             # store is not set up on this machine.
-            url = re.sub(r'_SY\d+_', '_SY475_', a.cover)
+            url = re.sub(r'_S[XY]\d+_', '_SY475_', a.cover)
             for u in (url, a.cover):
                 r = subprocess.run(['curl', '-sSL', '--max-time', '25',
                                     '-A', 'Mozilla/5.0', '-o', tmp, u])

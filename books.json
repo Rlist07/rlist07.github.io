@@ -14,8 +14,8 @@
     "review": "https://www.goodreads.com/review/show/8337359936",
     "author": "James M. Cain",
     "authorLink": "https://www.goodreads.com/author/show/14473.James_M_Cain",
-    "rating": 4,
-    "finished": "04/12/2026"
+    "rating": 3.5,
+    "finished": "04/07/2026"
   },
   {
     "title": "The Sun Also Rises",
@@ -23,7 +23,7 @@
     "review": "https://www.goodreads.com/review/show/8256342782",
     "author": "Ernest Hemingway",
     "authorLink": "https://www.goodreads.com/author/show/1455.Ernest_Hemingway",
-    "rating": 4,
+    "rating": 3.5,
     "finished": "04/06/2026"
   },
   {
@@ -77,7 +77,7 @@
     "review": "https://www.goodreads.com/review/show/8255596662",
     "author": "Sylvia Plath",
     "authorLink": "https://www.goodreads.com/author/show/4379.Sylvia_Plath",
-    "rating": 4,
+    "rating": 3.75,
     "finished": "02/16/2026"
   },
   {
@@ -104,7 +104,7 @@
     "review": "https://www.goodreads.com/review/show/8230105929",
     "author": "Jane Austen",
     "authorLink": "https://www.goodreads.com/author/show/1265.Jane_Austen",
-    "rating": 3,
+    "rating": 3.75,
     "finished": "01/14/2026"
   },
   {
@@ -167,7 +167,7 @@
     "review": "https://www.goodreads.com/review/show/7796116089",
     "author": "Bret Easton Ellis",
     "authorLink": "https://www.goodreads.com/author/show/2751.Bret_Easton_Ellis",
-    "rating": 2,
+    "rating": 0.5,
     "finished": "08/17/2025"
   },
   {
@@ -185,7 +185,7 @@
     "review": "https://www.goodreads.com/review/show/7748893503",
     "author": "Cormac McCarthy",
     "authorLink": "https://www.goodreads.com/author/show/4178.Cormac_McCarthy",
-    "rating": 4,
+    "rating": 3.5,
     "finished": "08/02/2025"
   },
   {
@@ -194,7 +194,7 @@
     "review": "https://www.goodreads.com/review/show/7730936008",
     "author": "Simone de\n              Beauvoir",
     "authorLink": "https://www.goodreads.com/author/show/5548.Simone_de_Beauvoir",
-    "rating": 4,
+    "rating": 3.5,
     "finished": "07/18/2025"
   },
   {
@@ -347,7 +347,7 @@
     "review": "https://www.goodreads.com/review/show/7727996667",
     "author": "Virginia Woolf",
     "authorLink": "https://www.goodreads.com/author/show/6765.Virginia_Woolf",
-    "rating": 3,
+    "rating": 3.25,
     "finished": "06/2024"
   },
   {
@@ -680,7 +680,7 @@
     "review": "https://www.goodreads.com/review/show/8639874362",
     "author": "George Saunders",
     "authorLink": "https://www.goodreads.com/author/show/8885.George_Saunders",
-    "rating": 5,
+    "rating": 4.5,
     "finished": "06/06/2026"
   },
   {
@@ -689,7 +689,7 @@
     "review": "https://www.goodreads.com/review/show/7842286767",
     "author": "David Foster Wallace",
     "authorLink": "https://www.goodreads.com/author/show/4339.David_Foster_Wallace",
-    "rating": 5,
+    "rating": 4.5,
     "finished": "06/07/2026"
   },
   {
@@ -709,5 +709,86 @@
     "authorLink": "https://www.goodreads.com/author/show/10264.Henry_David_Thoreau",
     "rating": 4,
     "finished": "08/19/2026"
+  },
+  {
+    "title": "Bartleby the Scrivener",
+    "cover": "assets/covers/bartleby-the-scrivener.webp",
+    "review": "https://www.goodreads.com/review/show/8269337595",
+    "author": "Herman Melville",
+    "authorLink": "https://www.goodreads.com/author/show/1624.Herman_Melville",
+    "rating": 5,
+    "finished": "08/28/2024"
+  },
+  {
+    "title": "The Grapes of Wrath",
+    "cover": "assets/covers/the-grapes-of-wrath.webp",
+    "review": "https://www.goodreads.com/review/show/7796030272",
+    "author": "John Steinbeck",
+    "authorLink": "https://www.goodreads.com/author/show/585.John_Steinbeck",
+    "rating": 4,
+    "finished": "09/01/2026"
+  },
+  {
+    "title": "The Beauty of Everyday Things",
+    "cover": "assets/covers/the-beauty-of-everyday-things.webp",
+    "review": "https://www.goodreads.com/review/show/8778856141",
+    "author": "Soetsu Yanagi",
+    "authorLink": "https://www.goodreads.com/author/show/483906.Soetsu_Yanagi",
+    "rating": 3,
+    "finished": "09/03/2026"
+  },
+  {
+    "title": "The Fool's Progress",
+    "cover": "assets/covers/the-fool-s-progress.webp",
+    "review": "https://www.goodreads.com/review/show/8564332847",
+    "author": "Edward Abbey",
+    "authorLink": "https://www.goodreads.com/author/show/37218.Edward_Abbey",
+    "rating": 4.5,
+    "finished": "10/05/2026"
+  },
+  {
+    "title": "A Very Easy Death",
+    "cover": "assets/covers/a-very-easy-death.webp",
+    "review": "https://www.goodreads.com/review/show/8282683922",
+    "author": "Simone de Beauvoir",
+    "authorLink": "https://www.goodreads.com/author/show/5548.Simone_de_Beauvoir",
+    "rating": 3.5,
+    "finished": "10/06/2026"
+  },
+  {
+    "title": "Crime and Punishment",
+    "cover": "assets/covers/crime-and-punishment.webp",
+    "review": "https://www.goodreads.com/review/show/7796010129",
+    "author": "Fyodor Dostoevsky",
+    "authorLink": "https://www.goodreads.com/author/show/3137322.Fyodor_Dostoevsky",
+    "rating": 4.5,
+    "finished": "10/29/2026"
+  },
+  {
+    "title": "Norwegian Wood",
+    "cover": "assets/covers/norwegian-wood.webp",
+    "review": "https://www.goodreads.com/review/show/8778853782",
+    "author": "Haruki Murakami",
+    "authorLink": "https://www.goodreads.com/author/show/3354.Haruki_Murakami",
+    "rating": 1.5,
+    "finished": "11/05/2026"
+  },
+  {
+    "title": "Fear and Trembling: A New Translation",
+    "cover": "assets/covers/fear-and-trembling-a-new-translation.webp",
+    "review": "https://www.goodreads.com/review/show/8255595855",
+    "author": "Søren Kierkegaard",
+    "authorLink": "https://www.goodreads.com/author/show/6172.S_ren_Kierkegaard",
+    "rating": 2.5,
+    "finished": "11/21/2026"
+  },
+  {
+    "title": "Miss Lonelyhearts & The Day of the Locust",
+    "cover": "assets/covers/miss-lonelyhearts-the-day-of-the-locust.webp",
+    "review": "https://www.goodreads.com/review/show/9064634596",
+    "author": "Nathanael West",
+    "authorLink": "https://www.goodreads.com/author/show/65685.Nathanael_West",
+    "rating": 4.5,
+    "finished": "11/24/2026"
   }
 ]
